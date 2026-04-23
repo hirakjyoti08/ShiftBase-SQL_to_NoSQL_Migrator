@@ -300,7 +300,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Hirakjyoti Talukdar - [EMAIL_ADDRESS]
+Hirakjyoti Talukdar - [work.hirakk@gmail.com]
 
 ---
 
