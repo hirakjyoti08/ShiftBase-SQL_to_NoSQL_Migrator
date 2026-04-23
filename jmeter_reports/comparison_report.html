@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DLoader Benchmark Report</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f8f9fa;
+    --card: #ffffff;
+    --border: #e9ecef;
+    --text: #212529;
+    --text-secondary: #6c757d;
+    --mongo: #4caf50;
+    --cassandra: #1976d2;
+    --mysql: #ff9800;
+    --differs: #e67e22;
+    --radius: 10px;
+    --shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 2rem;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .header h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #1976d2, #4caf50);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.25rem;
+  }
+
+  .header .subtitle {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+  }
+
+  .header .timestamp {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+  }
+
+  /* Legend */
+  .legend {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+  }
+
+  .legend-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  /* Section titles */
+  .section-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--border);
+  }
+
+  /* Query Map Table */
+  .query-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: var(--card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+
+  .query-table thead th {
+    background: #f1f3f5;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-secondary);
+    border-bottom: 2px solid var(--border);
+  }
+
+  .query-table tbody td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.875rem;
+    vertical-align: middle;
+  }
+
+  .query-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  .query-table tbody tr:hover {
+    background: #f8f9fa;
+  }
+
+  .query-id {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--text);
+    min-width: 40px;
+  }
+
+  .clickable-id {
+    cursor: pointer;
+    color: #1976d2;
+    text-decoration: underline;
+  }
+
+  .clickable-id:hover {
+    color: #0d47a1;
+  }
+
+  /* DB badges */
+  .db-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #fff;
+    min-width: 90px;
+    text-align: center;
+  }
+
+  .db-badge.mongodb { background: var(--mongo); }
+  .db-badge.cassandra { background: var(--cassandra); }
+  .db-badge.mysql { background: var(--mysql); }
+
+  .operation-title {
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 2px;
+  }
+
+  .operation-desc {
+    color: var(--text-secondary);
+    font-size: 0.82rem;
+  }
+
+  .differs-badge {
+    display: inline-block;
+    background: var(--differs);
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 1px 6px;
+    border-radius: 3px;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+
+  .script-path {
+    font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+  }
+
+  /* Performance Table */
+  .perf-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: var(--card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    margin-top: 0.5rem;
+  }
+
+  .perf-table thead th {
+    background: #f1f3f5;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-secondary);
+    border-bottom: 2px solid var(--border);
+  }
+
+  .perf-table thead th.num {
+    text-align: right;
+  }
+
+  .perf-table tbody td {
+    padding: 0.65rem 1rem;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.875rem;
+  }
+
+  .perf-table tbody td.num {
+    text-align: right;
+    font-family: 'SF Mono', 'Menlo', monospace;
+    font-size: 0.82rem;
+  }
+
+  .perf-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  .perf-table tbody tr:hover {
+    background: #f8f9fa;
+  }
+
+  .best-value {
+    color: #2e7d32;
+    font-weight: 600;
+  }
+
+  .worst-value {
+    color: #c62828;
+  }
+
+  /* Bar chart */
+  .chart-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .chart-card {
+    background: var(--card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 1.25rem;
+  }
+
+  .chart-card h3 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text);
+  }
+
+  .bar-group {
+    margin-bottom: 0.75rem;
+  }
+
+  .bar-label {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-bottom: 3px;
+  }
+
+  .bar-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .bar {
+    height: 22px;
+    border-radius: 4px;
+    min-width: 2px;
+    transition: width 0.6s ease;
+  }
+
+  .bar.mongodb { background: var(--mongo); }
+  .bar.cassandra { background: var(--cassandra); }
+  .bar.mysql { background: var(--mysql); }
+
+  .bar-value {
+    font-size: 0.78rem;
+    font-family: 'SF Mono', monospace;
+    color: var(--text-secondary);
+    white-space: nowrap;
+  }
+
+  /* Modal Styles */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .modal-overlay.active {
+    display: flex;
+  }
+
+  .modal-content {
+    background: var(--card);
+    width: 90%;
+    max-width: 1200px;
+    max-height: 90vh;
+    border-radius: var(--radius);
+    padding: 2rem;
+    position: relative;
+    overflow-y: auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  }
+
+  .modal-close {
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    font-size: 1.75rem;
+    cursor: pointer;
+    color: var(--text-secondary);
+    background: none;
+    border: none;
+    padding: 0;
+  }
+
+  .modal-close:hover {
+    color: var(--text);
+  }
+
+  .code-section {
+    margin-top: 1.5rem;
+  }
+
+  .code-section h4 {
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .code-block {
+    background: #282c34;
+    color: #abb2bf;
+    padding: 1.25rem;
+    border-radius: 8px;
+    font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
+    font-size: 0.85rem;
+    overflow-x: auto;
+    white-space: pre;
+    line-height: 1.4;
+  }
+  
+  .scripts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .footer .differs-note {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+  }
+
+  .footer .source {
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    font-family: 'SF Mono', monospace;
+  }
+
+  @media (max-width: 768px) {
+    body { padding: 1rem; }
+    .chart-section { grid-template-columns: 1fr; }
+    .scripts-grid { grid-template-columns: 1fr; }
+    .query-table { font-size: 0.8rem; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <h1>Benchmark Report</h1>
+    <div class="subtitle">SQL to NoSQL Performance Comparison · TPC-H Dataset</div>
+    <div class="timestamp">Generated 2026-04-23 20:53:17</div>
+  </div>
+
+  <div class="legend">
+    <span class="legend-item"><span class="legend-dot" style="background:var(--mongo)"></span> MongoDB</span>
+    <span class="legend-item"><span class="legend-dot" style="background:var(--cassandra)"></span> Cassandra</span>
+    <span class="legend-item"><span class="legend-dot" style="background:var(--mysql)"></span> MySQL</span>
+  </div>
+
+  <!-- ===== QUERY COMPARISON TABLE ===== -->
+  <div class="section-title">Query Comparison</div>
+  <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1rem;">Click on a Query ID to securely view the scripts run across the databases.</p>
+  <table class="query-table">
+    <thead>
+      <tr>
+        <th>Query</th>
+        <th>Database</th>
+        <th>Operation</th>
+        <th>Script</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="query-id" rowspan="3"><span class="clickable-id" onclick="openModal('Q1')">Q1</span></td><td><span class="db-badge cassandra">Cassandra</span></td>
+        <td>
+          <div class="operation-title">Read customer by ID</div>
+          <div class="operation-desc">Partition key row lookup on customer table</div>
+        </td>
+        <td class="script-path">scripts/cassandra_q1.groovy</td>
+      </tr>
+      <tr>
+        <td><span class="db-badge mongodb">MongoDB</span></td>
+        <td>
+          <div class="operation-title">Read customer by ID</div>
+          <div class="operation-desc">Primary key document lookup on customer collection</div>
+        </td>
+        <td class="script-path">scripts/mongo_q1.groovy</td>
+      </tr>
+      <tr>
+        <td><span class="db-badge mysql">MySQL</span></td>
+        <td>
+          <div class="operation-title">Read customer by ID</div>
+          <div class="operation-desc">Indexed SELECT on customer table</div>
+        </td>
+        <td class="script-path">scripts/mysql_q1.groovy</td>
+      </tr>
+      <tr>
+        <td class="query-id" rowspan="3"><span class="clickable-id" onclick="openModal('Q2')">Q2</span></td><td><span class="db-badge cassandra">Cassandra</span></td>
+        <td>
+          <div class="operation-title">Read customer orders detail</div>
+          <div class="operation-desc">Partition key scan across orders table</div>
+        </td>
+        <td class="script-path">scripts/cassandra_q2.groovy</td>
+      </tr>
+      <tr>
+        <td><span class="db-badge mongodb">MongoDB</span></td>
+        <td>
+          <div class="operation-title">Read customer orders detail</div>
+          <div class="operation-desc">Embedded / linked orders sub-document lookup</div>
+        </td>
+        <td class="script-path">scripts/mongo_q2.groovy</td>
+      </tr>
+      <tr>
+        <td><span class="db-badge mysql">MySQL</span></td>
+        <td>
+          <div class="operation-title">Read customer orders detail</div>
+          <div class="operation-desc">JOIN across customer & orders tables</div>
+        </td>
+        <td class="script-path">scripts/mysql_q2.groovy</td>
+      </tr>
+      <tr>
+        <td class="query-id" rowspan="3"><span class="clickable-id" onclick="openModal('Q3')">Q3</span></td><td><span class="db-badge cassandra">Cassandra</span></td>
+        <td>
+          <div class="operation-title">Aggregation: orders by status <span class="differs-badge">differs</span></div>
+          <div class="operation-desc">COUNT per customer partition — no full aggregation support</div>
+        </td>
+        <td class="script-path">scripts/cassandra_q3.groovy</td>
+      </tr>
+      <tr>
+        <td><span class="db-badge mongodb">MongoDB</span></td>
+        <td>
+          <div class="operation-title">Aggregation: orders by status</div>
+          <div class="operation-desc">Aggregation pipeline — group by order status</div>
+        </td>
+        <td class="script-path">scripts/mongo_q3.groovy</td>
+      </tr>
+      <tr>
+        <td><span class="db-badge mysql">MySQL</span></td>
+        <td>
+          <div class="operation-title">Aggregation: orders by status</div>
+          <div class="operation-desc">GROUP BY on order status column</div>
+        </td>
+        <td class="script-path">scripts/mysql_q3.groovy</td>
+      </tr>
+      <tr>
+        <td class="query-id" rowspan="3"><span class="clickable-id" onclick="openModal('Q4')">Q4</span></td><td><span class="db-badge cassandra">Cassandra</span></td>
+        <td>
+          <div class="operation-title">Range / filter query <span class="differs-badge">differs</span></div>
+          <div class="operation-desc">Filtered scan on lineitems return flag — no cross-partition range</div>
+        </td>
+        <td class="script-path">scripts/cassandra_q4.groovy</td>
+      </tr>
+      <tr>
+        <td><span class="db-badge mongodb">MongoDB</span></td>
+        <td>
+          <div class="operation-title">Range / filter query</div>
+          <div class="operation-desc">Range filter on nation / region field</div>
+        </td>
+        <td class="script-path">scripts/mongo_q4.groovy</td>
+      </tr>
+      <tr>
+        <td><span class="db-badge mysql">MySQL</span></td>
+        <td>
+          <div class="operation-title">Range / filter query</div>
+          <div class="operation-desc">JOIN + WHERE clause filtering by region</div>
+        </td>
+        <td class="script-path">scripts/mysql_q4.groovy</td>
+      </tr>
+      <tr>
+        <td class="query-id" rowspan="3"><span class="clickable-id" onclick="openModal('Q5')">Q5</span></td><td><span class="db-badge cassandra">Cassandra</span></td>
+        <td>
+          <div class="operation-title">Revenue aggregation</div>
+          <div class="operation-desc">SUM aggregation on lineitems partition</div>
+        </td>
+        <td class="script-path">scripts/cassandra_q5.groovy</td>
+      </tr>
+      <tr>
+        <td><span class="db-badge mongodb">MongoDB</span></td>
+        <td>
+          <div class="operation-title">Revenue aggregation</div>
+          <div class="operation-desc">Pipeline SUM of extended price across lineitems</div>
+        </td>
+        <td class="script-path">scripts/mongo_q5.groovy</td>
+      </tr>
+      <tr>
+        <td><span class="db-badge mysql">MySQL</span></td>
+        <td>
+          <div class="operation-title">Revenue aggregation</div>
+          <div class="operation-desc">SUM with multi-table JOIN on TPC-H schema</div>
+        </td>
+        <td class="script-path">scripts/mysql_q5.groovy</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="section-title">Performance Results</div>
+  <table class="perf-table">
+    <thead>
+      <tr>
+        <th>Query</th>
+        <th>Database</th>
+        <th class="num">Samples</th>
+        <th class="num">Avg (ms)</th>
+        <th class="num">Min (ms)</th>
+        <th class="num">Max (ms)</th>
+        <th class="num">Throughput</th>
+        <th class="num">Error %</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="query-id" rowspan="3">Q1</td><td><span class="db-badge cassandra">Cassandra</span></td>
+        <td class="num">50</td>
+        <td class="num">10.5</td>
+        <td class="num">0</td>
+        <td class="num">344</td>
+        <td class="num">95.42/s</td>
+        <td class="num">0.0%</td>
+      </tr>
+      <tr>
+        <td><span class="db-badge mongodb">MongoDB</span></td>
+        <td class="num">50</td>
+        <td class="num worst-value">33.3</td>
+        <td class="num">1</td>
+        <td class="num">427</td>
+        <td class="num">30.05/s</td>
+        <td class="num">0.0%</td>
+      </tr>
+      <tr>
+        <td><span class="db-badge mysql">MySQL</span></td>
+        <td class="num">50</td>
+        <td class="num best-value">4.2</td>
+        <td class="num">0</td>
+        <td class="num">180</td>
+        <td class="num">238.1/s</td>
+        <td class="num">0.0%</td>
+      </tr>
+      <tr>
+        <td class="query-id" rowspan="3">Q2</td><td><span class="db-badge cassandra">Cassandra</span></td>
+        <td class="num">50</td>
+        <td class="num best-value">2.3</td>
+        <td class="num">0</td>
+        <td class="num">28</td>
+        <td class="num">442.48/s</td>
+        <td class="num">0.0%</td>
+      </tr>
+      <tr>
+        <td><span class="db-badge mongodb">MongoDB</span></td>
+        <td class="num">50</td>
+        <td class="num worst-value">60.3</td>
+        <td class="num">29</td>
+        <td class="num">292</td>
+        <td class="num">16.58/s</td>
+        <td class="num">0.0%</td>
+      </tr>
+      <tr>
+        <td><span class="db-badge mysql">MySQL</span></td>
+        <td class="num">50</td>
+        <td class="num">3.2</td>
+        <td class="num">0</td>
+        <td class="num">11</td>
+        <td class="num">316.46/s</td>
+        <td class="num">0.0%</td>
+      </tr>
+      <tr>
+        <td class="query-id" rowspan="3">Q3</td><td><span class="db-badge cassandra">Cassandra</span></td>
+        <td class="num">50</td>
+        <td class="num best-value">1.4</td>
+        <td class="num">0</td>
+        <td class="num">15</td>
+        <td class="num">735.29/s</td>
+        <td class="num">0.0%</td>
+      </tr>
+      <tr>
+        <td><span class="db-badge mongodb">MongoDB</span></td>
+        <td class="num">50</td>
+        <td class="num worst-value">47.8</td>
+        <td class="num">31</td>
+        <td class="num">175</td>
+        <td class="num">20.9/s</td>
+        <td class="num">0.0%</td>
+      </tr>
+      <tr>
+        <td><span class="db-badge mysql">MySQL</span></td>
+        <td class="num">50</td>
+        <td class="num">2.5</td>
+        <td class="num">0</td>
+        <td class="num">19</td>
+        <td class="num">393.7/s</td>
+        <td class="num">0.0%</td>
+      </tr>
+      <tr>
+        <td class="query-id" rowspan="3">Q4</td><td><span class="db-badge cassandra">Cassandra</span></td>
+        <td class="num">50</td>
+        <td class="num best-value">1.7</td>
+        <td class="num">0</td>
+        <td class="num">16</td>
+        <td class="num">588.24/s</td>
+        <td class="num">0.0%</td>
+      </tr>
+      <tr>
+        <td><span class="db-badge mongodb">MongoDB</span></td>
+        <td class="num">50</td>
+        <td class="num worst-value">48.7</td>
+        <td class="num">28</td>
+        <td class="num">82</td>
+        <td class="num">20.55/s</td>
+        <td class="num">0.0%</td>
+      </tr>
+      <tr>
+        <td><span class="db-badge mysql">MySQL</span></td>
+        <td class="num">50</td>
+        <td class="num best-value">1.7</td>
+        <td class="num">0</td>
+        <td class="num">11</td>
+        <td class="num">595.24/s</td>
+        <td class="num">0.0%</td>
+      </tr>
+      <tr>
+        <td class="query-id" rowspan="3">Q5</td><td><span class="db-badge cassandra">Cassandra</span></td>
+        <td class="num">50</td>
+        <td class="num best-value">3.2</td>
+        <td class="num">0</td>
+        <td class="num">37</td>
+        <td class="num">308.64/s</td>
+        <td class="num">0.0%</td>
+      </tr>
+      <tr>
+        <td><span class="db-badge mongodb">MongoDB</span></td>
+        <td class="num">50</td>
+        <td class="num worst-value">57.4</td>
+        <td class="num">32</td>
+        <td class="num">135</td>
+        <td class="num">17.42/s</td>
+        <td class="num">0.0%</td>
+      </tr>
+      <tr>
+        <td><span class="db-badge mysql">MySQL</span></td>
+        <td class="num">50</td>
+        <td class="num">5.2</td>
+        <td class="num">2</td>
+        <td class="num">18</td>
+        <td class="num">193.05/s</td>
+        <td class="num">0.0%</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="section-title">Response Time Comparison</div>
+  <div class="chart-section">
+    <div class="chart-card">
+      <h3>Q1 — Read customer by ID</h3>
+      <div class="bar-group">
+        <div class="bar-label">Cassandra</div>
+        <div class="bar-container">
+          <div class="bar cassandra" style="width:31.531531531531538%"></div>
+          <span class="bar-value">10.5 ms</span>
+        </div>
+      </div>
+      <div class="bar-group">
+        <div class="bar-label">MongoDB</div>
+        <div class="bar-container">
+          <div class="bar mongodb" style="width:100.0%"></div>
+          <span class="bar-value">33.3 ms</span>
+        </div>
+      </div>
+      <div class="bar-group">
+        <div class="bar-label">MySQL</div>
+        <div class="bar-container">
+          <div class="bar mysql" style="width:12.612612612612613%"></div>
+          <span class="bar-value">4.2 ms</span>
+        </div>
+      </div>
+    </div>
+    <div class="chart-card">
+      <h3>Q2 — Read customer orders detail</h3>
+      <div class="bar-group">
+        <div class="bar-label">Cassandra</div>
+        <div class="bar-container">
+          <div class="bar cassandra" style="width:3.814262023217247%"></div>
+          <span class="bar-value">2.3 ms</span>
+        </div>
+      </div>
+      <div class="bar-group">
+        <div class="bar-label">MongoDB</div>
+        <div class="bar-container">
+          <div class="bar mongodb" style="width:100.0%"></div>
+          <span class="bar-value">60.3 ms</span>
+        </div>
+      </div>
+      <div class="bar-group">
+        <div class="bar-label">MySQL</div>
+        <div class="bar-container">
+          <div class="bar mysql" style="width:5.306799336650084%"></div>
+          <span class="bar-value">3.2 ms</span>
+        </div>
+      </div>
+    </div>
+    <div class="chart-card">
+      <h3>Q3 — Aggregation: orders by status</h3>
+      <div class="bar-group">
+        <div class="bar-label">Cassandra</div>
+        <div class="bar-container">
+          <div class="bar cassandra" style="width:2.928870292887029%"></div>
+          <span class="bar-value">1.4 ms</span>
+        </div>
+      </div>
+      <div class="bar-group">
+        <div class="bar-label">MongoDB</div>
+        <div class="bar-container">
+          <div class="bar mongodb" style="width:100.0%"></div>
+          <span class="bar-value">47.8 ms</span>
+        </div>
+      </div>
+      <div class="bar-group">
+        <div class="bar-label">MySQL</div>
+        <div class="bar-container">
+          <div class="bar mysql" style="width:5.2301255230125525%"></div>
+          <span class="bar-value">2.5 ms</span>
+        </div>
+      </div>
+    </div>
+    <div class="chart-card">
+      <h3>Q4 — Range / filter query</h3>
+      <div class="bar-group">
+        <div class="bar-label">Cassandra</div>
+        <div class="bar-container">
+          <div class="bar cassandra" style="width:3.4907597535934287%"></div>
+          <span class="bar-value">1.7 ms</span>
+        </div>
+      </div>
+      <div class="bar-group">
+        <div class="bar-label">MongoDB</div>
+        <div class="bar-container">
+          <div class="bar mongodb" style="width:100.0%"></div>
+          <span class="bar-value">48.7 ms</span>
+        </div>
+      </div>
+      <div class="bar-group">
+        <div class="bar-label">MySQL</div>
+        <div class="bar-container">
+          <div class="bar mysql" style="width:3.4907597535934287%"></div>
+          <span class="bar-value">1.7 ms</span>
+        </div>
+      </div>
+    </div>
+    <div class="chart-card">
+      <h3>Q5 — Revenue aggregation</h3>
+      <div class="bar-group">
+        <div class="bar-label">Cassandra</div>
+        <div class="bar-container">
+          <div class="bar cassandra" style="width:5.574912891986063%"></div>
+          <span class="bar-value">3.2 ms</span>
+        </div>
+      </div>
+      <div class="bar-group">
+        <div class="bar-label">MongoDB</div>
+        <div class="bar-container">
+          <div class="bar mongodb" style="width:100.0%"></div>
+          <span class="bar-value">57.4 ms</span>
+        </div>
+      </div>
+      <div class="bar-group">
+        <div class="bar-label">MySQL</div>
+        <div class="bar-container">
+          <div class="bar mysql" style="width:9.059233449477352%"></div>
+          <span class="bar-value">5.2 ms</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="differs-note">
+      <span class="differs-badge">differs</span>
+      <span>Cassandra's partition-key model required a different query approach for Q3 and Q4 compared to MongoDB and MySQL.</span>
+    </div>
+    <div class="source">Source: benchmark_nosql.jmx · TPC-H 1 GB dataset · 5 threads · 100 loops</div>
+  </div>
+
+</div>
+
+<!-- ===== MODALS ===== -->
+
+<div id="modal-Q1" class="modal-overlay">
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeModal('Q1')">&times;</button>
+    <h2 style="margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; color: var(--text);">
+      Q1 — Read customer by ID
+    </h2>
+    <div class="scripts-grid">
+
+      <div class="code-section">
+        <h4><span class="db-badge cassandra">Cassandra</span></h4>
+        <div class="code-block">SELECT customer_id, name, nation, region 
+FROM customer_orders 
+WHERE customer_id = ? LIMIT 1;</div>
+      </div>
+
+      <div class="code-section">
+        <h4><span class="db-badge mongodb">MongoDB</span></h4>
+        <div class="code-block">db.customers.find({ 
+  customer_id: ? 
+}).limit(1)</div>
+      </div>
+
+      <div class="code-section">
+        <h4><span class="db-badge mysql">MySQL</span></h4>
+        <div class="code-block">SELECT c.c_custkey, c.c_name, n.n_name AS nation, r.r_name AS region
+FROM customer c
+JOIN nation n ON c.c_nationkey = n.n_nationkey
+JOIN region r ON n.n_regionkey = r.r_regionkey
+WHERE c.c_custkey = ?;</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div id="modal-Q2" class="modal-overlay">
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeModal('Q2')">&times;</button>
+    <h2 style="margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; color: var(--text);">
+      Q2 — Read customer orders detail
+    </h2>
+    <div class="scripts-grid">
+
+      <div class="code-section">
+        <h4><span class="db-badge cassandra">Cassandra</span></h4>
+        <div class="code-block">SELECT * 
+FROM customer_orders 
+WHERE customer_id = ?;</div>
+      </div>
+
+      <div class="code-section">
+        <h4><span class="db-badge mongodb">MongoDB</span></h4>
+        <div class="code-block">db.customers.aggregate([
+  { $match: { customer_id: ? } },
+  { $unwind: { path: &#x27;$orders&#x27;, preserveNullAndEmptyArrays: true } },
+  { $unwind: { path: &#x27;$orders.lineitems&#x27;, preserveNullAndEmptyArrays: true } },
+  { $project: { _id: 0, customer_id: 1, name: 1, &#x27;orders.order_id&#x27;: 1 /* ... */ } }
+])</div>
+      </div>
+
+      <div class="code-section">
+        <h4><span class="db-badge mysql">MySQL</span></h4>
+        <div class="code-block">SELECT c.*, o.*, l.*
+FROM customer c
+JOIN orders o ON c.c_custkey = o.o_custkey
+JOIN lineitem l ON o.o_orderkey = l.l_orderkey
+WHERE c.c_custkey = ?;</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div id="modal-Q3" class="modal-overlay">
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeModal('Q3')">&times;</button>
+    <h2 style="margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; color: var(--text);">
+      Q3 — Aggregation: orders by status
+    </h2>
+    <div class="scripts-grid">
+
+      <div class="code-section">
+        <h4><span class="db-badge cassandra">Cassandra</span></h4>
+        <div class="code-block">// 1. Scan partition for order status
+SELECT order_id, line_number, status 
+FROM customer_orders 
+WHERE customer_id = ?;
+
+// 2. Client-side distinct count
+int count = 0;
+Set&lt;Integer&gt; uniqueOrders = new HashSet&lt;&gt;();
+for (Row row : results) {
+  uniqueOrders.add(row.getInt(&quot;order_id&quot;));
+}
+count = uniqueOrders.size();</div>
+      </div>
+
+      <div class="code-section">
+        <h4><span class="db-badge mongodb">MongoDB</span></h4>
+        <div class="code-block">db.customers.aggregate([
+  { $match: { customer_id: ? } },
+  { $unwind: &#x27;$orders&#x27; },
+  { $group: { 
+      _id: &#x27;$orders.status&#x27;, 
+      order_count: { $sum: 1 },
+      total_value: { $sum: &#x27;$orders.total_price&#x27; }
+  }}
+])</div>
+      </div>
+
+      <div class="code-section">
+        <h4><span class="db-badge mysql">MySQL</span></h4>
+        <div class="code-block">SELECT o_orderstatus, COUNT(*) as order_count, SUM(o_totalprice)
+FROM orders
+WHERE o_custkey = ?
+GROUP BY o_orderstatus;</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div id="modal-Q4" class="modal-overlay">
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeModal('Q4')">&times;</button>
+    <h2 style="margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; color: var(--text);">
+      Q4 — Range / filter query
+    </h2>
+    <div class="scripts-grid">
+
+      <div class="code-section">
+        <h4><span class="db-badge cassandra">Cassandra</span></h4>
+        <div class="code-block">// Cannot do cross-partition range efficiently,
+// so we scan the customer&#x27;s partition &amp; filter.
+SELECT order_id, return_flag 
+FROM customer_orders 
+WHERE customer_id = ? 
+  AND return_flag = &#x27;R&#x27; ALLOW FILTERING;</div>
+      </div>
+
+      <div class="code-section">
+        <h4><span class="db-badge mongodb">MongoDB</span></h4>
+        <div class="code-block">db.customers.find({
+  customer_id: { $gte: minId, $lte: maxId },
+  region: &#x27;ASIA&#x27;
+})</div>
+      </div>
+
+      <div class="code-section">
+        <h4><span class="db-badge mysql">MySQL</span></h4>
+        <div class="code-block">SELECT c.c_custkey, c.c_name 
+FROM customer c
+JOIN nation n ON c.c_nationkey = n.n_nationkey
+JOIN region r ON n.n_regionkey = r.r_regionkey
+WHERE c.c_custkey BETWEEN ? AND ? 
+  AND r.r_name = &#x27;ASIA&#x27;;</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div id="modal-Q5" class="modal-overlay">
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeModal('Q5')">&times;</button>
+    <h2 style="margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; color: var(--text);">
+      Q5 — Revenue aggregation
+    </h2>
+    <div class="scripts-grid">
+
+      <div class="code-section">
+        <h4><span class="db-badge cassandra">Cassandra</span></h4>
+        <div class="code-block">// 1. Scan partition for line items
+SELECT extended_price, discount 
+FROM customer_orders 
+WHERE customer_id = ?;
+
+// 2. Client-side revenue sum
+double revenue = 0;
+for (Row row : results) {
+  revenue += row.extended_price * (1 - row.discount);
+}</div>
+      </div>
+
+      <div class="code-section">
+        <h4><span class="db-badge mongodb">MongoDB</span></h4>
+        <div class="code-block">db.customers.aggregate([
+  { $match: { customer_id: ? } },
+  { $unwind: &#x27;$orders&#x27; },
+  { $unwind: &#x27;$orders.lineitems&#x27; },
+  { $group: {
+      _id: null,
+      revenue: { 
+        $sum: { 
+          $multiply: [
+            &#x27;$orders.lineitems.extended_price&#x27;, 
+            { $subtract: [1, &#x27;$orders.lineitems.discount&#x27;] }
+          ]
+        }
+      }
+  }}
+])</div>
+      </div>
+
+      <div class="code-section">
+        <h4><span class="db-badge mysql">MySQL</span></h4>
+        <div class="code-block">SELECT SUM(l.l_extendedprice * (1 - l.l_discount)) AS revenue
+FROM customer c
+JOIN orders o ON c.c_custkey = o.o_custkey
+JOIN lineitem l ON o.o_orderkey = l.l_orderkey
+WHERE c.c_custkey = ?;</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  function openModal(id) {
+    document.getElementById('modal-' + id).classList.add('active');
+    document.body.style.overflow = 'hidden'; // prevent background scrolling
+  }
+
+  function closeModal(id) {
+    document.getElementById('modal-' + id).classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  // Close modals when clicking outside the content area
+  window.onclick = function(event) {
+    if (event.target.classList.contains('modal-overlay')) {
+      event.target.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+  }
+
+  // Close on ESC key
+  document.addEventListener('keydown', function(event) {
+    if (event.key === "Escape") {
+      const activeModals = document.querySelectorAll('.modal-overlay.active');
+      activeModals.forEach(function(modal) {
+        modal.classList.remove('active');
+      });
+      document.body.style.overflow = '';
+    }
+  });
+</script>
+</body>
+</html>
