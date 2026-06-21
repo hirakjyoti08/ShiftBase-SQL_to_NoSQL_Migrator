@@ -274,7 +274,7 @@ CREATE TYPE lineitem (
 ## Documentation
 
 - [Configuration Guide](config/README.md)
-- [Data Transformation Logic](src/transformer/README.md)
+- [Data Transformation Logic](main.py)
 - [Migration Process](README.md#migration-flow)
 
 ---
@@ -312,8 +312,6 @@ To add support for other NoSQL databases:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-<<<<<<< HEAD
 ## Contact
 
 Hirakjyoti Talukdar - [work.hirakk@gmail.com]
@@ -321,7 +319,6 @@ Hirakjyoti Talukdar - [work.hirakk@gmail.com]
 ---
 
 =======
->>>>>>> fd05b28 (chore: update JMeter performance test results and documentation)
 ## Acknowledgments
 
 - **Apache Spark** - Distributed data processing
