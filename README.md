@@ -298,12 +298,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+<<<<<<< HEAD
 ## Contact
 
 Hirakjyoti Talukdar - [work.hirakk@gmail.com]
 
 ---
 
+=======
+>>>>>>> fd05b28 (chore: update JMeter performance test results and documentation)
 ## Acknowledgments
 
 - **Apache Spark** - Distributed data processing
