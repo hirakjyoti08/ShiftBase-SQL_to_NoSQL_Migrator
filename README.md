@@ -17,6 +17,21 @@ This project demonstrates a complete pipeline for **SQL → NoSQL migration**, i
 
 ---
 
+## 🎥 Demo Video
+
+<div align="center">
+  <a href="https://drive.google.com/file/d/1sIWzb8tonq3PHdymBUZAEEVSC-TrTZ77/view?usp=sharing">
+    <img src="https://drive.google.com/thumbnail?id=1sIWzb8tonq3PHdymBUZAEEVSC-TrTZ77&sz=w800" alt="ShiftBase Project Demo" width="700" style="border-radius: 10px; box-shadow: 0px 4px 10px rgba(0,0,0,0.3);">
+  </a>
+  <br>
+  <br>
+  <a href="https://drive.google.com/file/d/1sIWzb8tonq3PHdymBUZAEEVSC-TrTZ77/view?usp=sharing">
+    <b>▶️ Click here to watch the full ShiftBase project demonstration</b>
+  </a>
+</div>
+
+---
+
 ## Features
 
 - 🔄 Automated SQL to NoSQL migration  
