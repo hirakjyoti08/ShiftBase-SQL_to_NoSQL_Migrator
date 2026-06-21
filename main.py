@@ -33,7 +33,7 @@ def main():
     # Write to Cassandra (overwrite mode to avoid duplicates)
     load_to_cassandra(doc_df_cassandra, table_name=cassandra_table, truncate_first=True)
 
-    print("✅ Migration to MongoDB and Cassandra completed successfully.")
+    print("Migration to MongoDB and Cassandra completed successfully.")
     spark.stop()
 
 if __name__ == "__main__":

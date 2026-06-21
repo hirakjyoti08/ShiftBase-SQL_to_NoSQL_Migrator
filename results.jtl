@@ -1,752 +1,752 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1776957789089,15,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-3,text,true,,116,0,3,3,null,0,0,0
-1776957788687,427,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-1,text,true,,116,0,3,3,null,0,0,0
-1776957788889,227,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-2,text,true,,118,0,3,3,null,0,0,0
-1776957789289,21,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-4,text,true,,117,0,4,4,null,0,0,0
-1776957789105,292,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-3,text,true,,473,0,4,4,null,0,0,0
-1776957789116,282,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-2,text,true,,1787,0,4,4,null,0,0,0
-1776957789114,284,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-1,text,true,,1781,0,4,4,null,0,0,0
-1776957789310,89,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-4,text,true,,1787,0,4,4,null,0,0,0
-1776957789398,50,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-2,text,true,,65,0,4,4,null,0,0,0
-1776957789397,51,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-3,text,true,,66,0,4,4,null,0,0,0
-1776957789398,50,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-1,text,true,,65,0,4,4,null,0,0,0
-1776957789400,48,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-4,text,true,,65,0,4,4,null,0,0,0
-1776957789485,4,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-5,text,true,,118,0,5,5,null,0,0,0
-1776957789448,58,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-2,text,true,,56,0,5,5,null,0,0,0
-1776957789448,58,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-3,text,true,,53,0,5,5,null,0,0,0
-1776957789448,58,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-4,text,true,,54,0,5,5,null,0,0,0
-1776957789448,60,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-1,text,true,,55,0,5,5,null,0,0,0
-1776957789489,36,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-5,text,true,,1780,0,5,5,null,0,0,0
-1776957789525,36,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-5,text,true,,112,0,5,5,null,0,0,0
-1776957789506,57,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-2,text,true,,588,0,5,5,null,0,0,0
-1776957789506,58,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-4,text,true,,603,0,5,5,null,0,0,0
-1776957789508,57,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-1,text,true,,590,0,5,5,null,0,0,0
-1776957789506,62,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-3,text,true,,589,0,5,5,null,0,0,0
-1776957789568,1,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-3,text,true,,118,0,5,5,null,0,0,0
-1776957789563,21,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-2,text,true,,117,0,5,5,null,0,0,0
-1776957789564,25,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-4,text,true,,117,0,5,5,null,0,0,0
-1776957789565,31,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-1,text,true,,118,0,5,5,null,0,0,0
-1776957789561,38,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-5,text,true,,54,0,5,5,null,0,0,0
-1776957789569,31,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-3,text,true,,1784,0,5,5,null,0,0,0
-1776957789584,37,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-2,text,true,,1786,0,5,5,null,0,0,0
-1776957789590,31,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-4,text,true,,1782,0,5,5,null,0,0,0
-1776957789596,31,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-1,text,true,,1779,0,5,5,null,0,0,0
-1776957789600,32,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-3,text,true,,111,0,5,5,null,0,0,0
-1776957789599,36,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-5,text,true,,600,0,5,5,null,0,0,0
-1776957789635,16,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-5,text,true,,117,0,5,5,null,0,0,0
-1776957789621,34,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-2,text,true,,66,0,5,5,null,0,0,0
-1776957789621,36,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-4,text,true,,114,0,5,5,null,0,0,0
-1776957789628,34,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-1,text,true,,151,0,5,5,null,0,0,0
-1776957789632,30,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-3,text,true,,56,0,5,5,null,0,0,0
-1776957789662,28,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-1,text,true,,53,0,5,5,null,0,0,0
-1776957789652,38,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-5,text,true,,1783,0,5,5,null,0,0,0
-1776957789656,36,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-2,text,true,,60,0,5,5,null,0,0,0
-1776957789657,38,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-4,text,true,,52,0,5,5,null,0,0,0
-1776957789662,37,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-3,text,true,,588,0,5,5,null,0,0,0
-1776957789699,22,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-3,text,true,,117,0,5,5,null,0,0,0
-1776957789690,35,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-5,text,true,,114,0,5,5,null,0,0,0
-1776957789690,36,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-1,text,true,,588,0,5,5,null,0,0,0
-1776957789692,35,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-2,text,true,,589,0,5,5,null,0,0,0
-1776957789695,32,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-4,text,true,,603,0,5,5,null,0,0,0
-1776957789727,17,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-2,text,true,,118,0,5,5,null,0,0,0
-1776957789727,26,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-4,text,true,,118,0,5,5,null,0,0,0
-1776957789726,29,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-1,text,true,,117,0,5,5,null,0,0,0
-1776957789721,36,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-3,text,true,,475,0,5,5,null,0,0,0
-1776957789725,33,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-5,text,true,,53,0,5,5,null,0,0,0
-1776957789744,40,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-2,text,true,,1780,0,5,5,null,0,0,0
-1776957789753,31,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-4,text,true,,1774,0,5,5,null,0,0,0
-1776957789757,32,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-3,text,true,,109,0,5,5,null,0,0,0
-1776957789756,33,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-1,text,true,,1786,0,5,5,null,0,0,0
-1776957789758,33,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-5,text,true,,588,0,5,5,null,0,0,0
-1776957789791,5,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-5,text,true,,117,0,5,5,null,0,0,0
-1776957789784,37,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-2,text,true,,111,0,5,5,null,0,0,0
-1776957789784,39,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-4,text,true,,151,0,5,5,null,0,0,0
-1776957789789,37,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-3,text,true,,51,0,5,5,null,0,0,0
-1776957789789,38,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-1,text,true,,109,0,5,5,null,0,0,0
-1776957789796,42,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-5,text,true,,1779,0,5,5,null,0,0,0
-1776957789821,44,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-2,text,true,,51,0,5,5,null,0,0,0
-1776957789827,38,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-1,text,true,,56,0,5,5,null,0,0,0
-1776957789823,45,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-4,text,true,,56,0,5,5,null,0,0,0
-1776957789826,45,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-3,text,true,,589,0,5,5,null,0,0,0
-1776957789838,36,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-5,text,true,,152,0,5,5,null,0,0,0
-1776957789871,5,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-3,text,true,,117,0,5,5,null,0,0,0
-1776957789865,39,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-2,text,true,,600,0,5,5,null,0,0,0
-1776957789876,29,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-3,text,true,,1782,0,5,5,null,0,0,0
-1776957789865,40,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-1,text,true,,589,0,5,5,null,0,0,0
-1776957789868,38,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-4,text,true,,590,0,5,5,null,0,0,0
-1776957789874,36,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-5,text,true,,55,0,5,5,null,0,0,0
-1776957789904,16,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-2,text,true,,117,0,5,5,null,0,0,0
-1776957789906,15,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-4,text,true,,117,0,5,5,null,0,0,0
-1776957789905,22,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-1,text,true,,116,0,5,5,null,0,0,0
-1776957789905,38,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-3,text,true,,111,0,5,5,null,0,0,0
-1776957789910,40,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-5,text,true,,589,0,5,5,null,0,0,0
-1776957789921,35,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-4,text,true,,1782,0,5,5,null,0,0,0
-1776957789920,38,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-2,text,true,,475,0,5,5,null,0,0,0
-1776957789928,30,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-1,text,true,,473,0,5,5,null,0,0,0
-1776957789950,10,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-5,text,true,,116,0,5,5,null,0,0,0
-1776957789957,32,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-4,text,true,,150,0,5,5,null,0,0,0
-1776957789958,31,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-1,text,true,,65,0,5,5,null,0,0,0
-1776957789958,31,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-2,text,true,,65,0,5,5,null,0,0,0
-1776957789943,48,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-3,text,true,,53,0,5,5,null,0,0,0
-1776957789960,39,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-5,text,true,,1778,0,5,5,null,0,0,0
-1776957789989,41,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-2,text,true,,53,0,5,5,null,0,0,0
-1776957789991,39,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-3,text,true,,601,0,5,5,null,0,0,0
-1776957789989,43,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-4,text,true,,60,0,5,5,null,0,0,0
-1776957789989,44,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-1,text,true,,53,0,5,5,null,0,0,0
-1776957789999,36,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-5,text,true,,153,0,5,5,null,0,0,0
-1776957790030,36,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-3,text,true,,117,0,5,5,null,0,0,0
-1776957790035,35,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-5,text,true,,53,0,5,5,null,0,0,0
-1776957790032,39,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-4,text,true,,599,0,5,5,null,0,0,0
-1776957790033,38,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-1,text,true,,589,0,5,5,null,0,0,0
-1776957790030,45,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-2,text,true,,604,0,5,5,null,0,0,0
-1776957790072,8,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-1,text,true,,117,0,5,5,null,0,0,0
-1776957790071,15,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-4,text,true,,117,0,5,5,null,0,0,0
-1776957790075,26,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-2,text,true,,118,0,5,5,null,0,0,0
-1776957790066,39,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-3,text,true,,1782,0,5,5,null,0,0,0
-1776957790080,30,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-1,text,true,,473,0,5,5,null,0,0,0
-1776957790086,36,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-4,text,true,,473,0,5,5,null,0,0,0
-1776957790105,32,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-3,text,true,,65,0,5,5,null,0,0,0
-1776957790101,37,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-2,text,true,,1782,0,5,5,null,0,0,0
-1776957790111,32,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-1,text,true,,150,0,5,5,null,0,0,0
-1776957790070,85,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-5,text,true,,588,0,5,5,null,0,0,0
-1776957790155,16,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-5,text,true,,117,0,5,5,null,0,0,0
-1776957790138,41,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-3,text,true,,54,0,5,5,null,0,0,0
-1776957790138,41,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-2,text,true,,111,0,5,5,null,0,0,0
-1776957790143,41,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-1,text,true,,53,0,5,5,null,0,0,0
-1776957790179,34,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-2,text,true,,60,0,5,5,null,0,0,0
-1776957790171,43,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-5,text,true,,1777,0,5,5,null,0,0,0
-1776957790184,90,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-1,text,true,,588,0,5,5,null,0,0,0
-1776957790122,175,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-4,text,true,,114,0,5,5,null,0,0,0
-1776957790214,88,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-5,text,true,,113,0,5,5,null,0,0,0
-1776957790179,135,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-3,text,true,,589,0,5,5,null,0,0,0
-1776957790213,103,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-2,text,true,,604,0,5,5,null,0,0,0
-1776957790314,3,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-3,text,true,,117,0,5,5,null,0,0,0
-1776957790274,47,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-1,text,true,,117,0,5,5,null,0,0,0
-1776957790316,18,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-2,text,true,,117,0,5,5,null,0,0,0
-1776957790302,50,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-5,text,true,,56,0,5,5,null,0,0,0
-1776957790297,55,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-4,text,true,,53,0,5,5,null,0,0,0
-1776957790321,41,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-1,text,true,,473,0,5,5,null,0,0,0
-1776957790317,46,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-3,text,true,,1782,0,5,5,null,0,0,0
-1776957790334,54,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-2,text,true,,1779,0,5,5,null,0,0,0
-1776957790364,38,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-3,text,true,,66,0,5,5,null,0,0,0
-1776957790352,52,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-4,text,true,,588,0,5,5,null,0,0,0
-1776957790362,44,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-1,text,true,,155,0,5,5,null,0,0,0
-1776957790352,64,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-5,text,true,,591,0,5,5,null,0,0,0
-1776957790416,4,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-5,text,true,,117,0,5,5,null,0,0,0
-1776957790404,36,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-4,text,true,,117,0,5,5,null,0,0,0
-1776957790388,55,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-2,text,true,,65,0,5,5,null,0,0,0
-1776957790402,41,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-3,text,true,,53,0,5,5,null,0,0,0
-1776957790406,50,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-1,text,true,,51,0,5,5,null,0,0,0
-1776957790420,48,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-5,text,true,,1777,0,5,5,null,0,0,0
-1776957790440,45,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-4,text,true,,1786,0,5,5,null,0,0,0
-1776957790443,45,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-2,text,true,,51,0,5,5,null,0,0,0
-1776957790443,49,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-3,text,true,,591,0,5,5,null,0,0,0
-1776957790492,13,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-3,text,true,,117,0,5,5,null,0,0,0
-1776957790456,52,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-1,text,true,,587,0,5,5,null,0,0,0
-1776957790468,42,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-5,text,true,,65,0,5,5,null,0,0,0
-1776957790485,42,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-4,text,true,,151,0,5,5,null,0,0,0
-1776957790488,52,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-2,text,true,,591,0,5,5,null,0,0,0
-1776957790508,44,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-1,text,true,,117,0,5,5,null,0,0,0
-1776957790506,47,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-3,text,true,,1783,0,5,5,null,0,0,0
-1776957790510,72,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-5,text,true,,53,0,5,5,null,0,0,0
-1776957790540,44,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-2,text,true,,117,0,5,5,null,0,0,0
-1776957790528,70,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-4,text,true,,51,0,5,5,null,0,0,0
-1776957790553,76,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-3,text,true,,66,0,5,5,null,0,0,0
-1776957790552,77,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-1,text,true,,473,0,5,5,null,0,0,0
-1776957790584,67,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-2,text,true,,473,0,5,5,null,0,0,0
-1776957790582,70,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-5,text,true,,599,0,5,5,null,0,0,0
-1776957790598,73,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-4,text,true,,604,0,5,5,null,0,0,0
-1776957790629,43,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-1,text,true,,111,0,5,5,null,0,0,0
-1776957790629,54,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-3,text,true,,51,0,5,5,null,0,0,0
-1776957790652,34,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-5,text,true,,117,0,5,5,null,0,0,0
-1776957790651,36,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-2,text,true,,65,0,5,5,null,0,0,0
-1776957790671,24,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-4,text,true,,117,0,5,5,null,0,0,0
-1776957790672,41,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-1,text,true,,58,0,5,5,null,0,0,0
-1776957790686,35,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-5,text,true,,1784,0,5,5,null,0,0,0
-1776957790687,36,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-2,text,true,,56,0,5,5,null,0,0,0
-1776957790683,41,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-3,text,true,,588,0,5,5,null,0,0,0
-1776957790695,31,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-4,text,true,,475,0,5,5,null,0,0,0
-1776957790724,3,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-3,text,true,,117,0,5,5,null,0,0,0
-1776957790721,41,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-5,text,true,,65,0,5,5,null,0,0,0
-1776957790713,50,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-1,text,true,,600,0,5,5,null,0,0,0
-1776957790726,38,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-4,text,true,,114,0,5,5,null,0,0,0
-1776957790727,38,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-3,text,true,,1779,0,5,5,null,0,0,0
-1776957790723,42,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-2,text,true,,593,0,5,5,null,0,0,0
-1776957790763,11,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-1,text,true,,117,0,5,5,null,0,0,0
-1776957790765,26,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-2,text,true,,117,0,5,5,null,0,0,0
-1776957790765,41,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-3,text,true,,153,0,5,5,null,0,0,0
-1776957790764,42,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-4,text,true,,51,0,5,5,null,0,0,0
-1776957790762,45,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-5,text,true,,55,0,5,5,null,0,0,0
-1776957790774,44,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-1,text,true,,1786,0,5,5,null,0,0,0
-1776957790791,50,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-2,text,true,,1776,0,5,5,null,0,0,0
-1776957790818,42,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-1,text,true,,152,0,5,5,null,0,0,0
-1776957790807,55,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-5,text,true,,602,0,5,5,null,0,0,0
-1776957790806,58,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-3,text,true,,54,0,5,5,null,0,0,0
-1776957790806,62,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-4,text,true,,590,0,5,5,null,0,0,0
-1776957790868,28,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-4,text,true,,117,0,5,5,null,0,0,0
-1776957790841,56,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-2,text,true,,113,0,5,5,null,0,0,0
-1776957790862,40,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-5,text,true,,118,0,5,5,null,0,0,0
-1776957790860,53,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-1,text,true,,54,0,5,5,null,0,0,0
-1776957790864,50,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-3,text,true,,601,0,5,5,null,0,0,0
-1776957790915,17,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-3,text,true,,117,0,5,5,null,0,0,0
-1776957790902,44,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-5,text,true,,473,0,5,5,null,0,0,0
-1776957790896,52,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-4,text,true,,1782,0,5,5,null,0,0,0
-1776957790897,52,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-2,text,true,,51,0,5,5,null,0,0,0
-1776957790913,60,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-1,text,true,,604,0,5,5,null,0,0,0
-1776957790932,48,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-3,text,true,,1769,0,5,5,null,0,0,0
-1776957790946,34,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-5,text,true,,112,0,5,5,null,0,0,0
-1776957790948,43,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-4,text,true,,112,0,5,5,null,0,0,0
-1776957790949,45,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-2,text,true,,591,0,5,5,null,0,0,0
-1776957790974,25,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-1,text,true,,117,0,5,5,null,0,0,0
-1776957790994,13,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-2,text,true,,117,0,5,5,null,0,0,0
-1776957790980,39,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-3,text,true,,113,0,5,5,null,0,0,0
-1776957790980,45,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-5,text,true,,53,0,5,5,null,0,0,0
-1776957790991,41,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-4,text,true,,51,0,5,5,null,0,0,0
-1776957790999,41,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-1,text,true,,1786,0,5,5,null,0,0,0
-1776957791007,41,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-2,text,true,,1780,0,5,5,null,0,0,0
-1776957791019,49,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-3,text,true,,54,0,5,5,null,0,0,0
-1776957791026,43,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-5,text,true,,601,0,5,5,null,0,0,0
-1776957791040,36,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-1,text,true,,65,0,5,5,null,0,0,0
-1776957791032,47,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-4,text,true,,590,0,5,5,null,0,0,0
-1776957791069,16,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-5,text,true,,117,0,5,5,null,0,0,0
-1776957791049,36,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-2,text,true,,113,0,5,5,null,0,0,0
-1776957791079,17,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-4,text,true,,118,0,5,5,null,0,0,0
-1776957791077,65,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-1,text,true,,58,0,5,5,null,0,0,0
-1776957791085,58,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-5,text,true,,1785,0,5,5,null,0,0,0
-1776957791068,75,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-3,text,true,,590,0,5,5,null,0,0,0
-1776957791085,74,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-2,text,true,,51,0,5,5,null,0,0,0
-1776957791096,63,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-4,text,true,,473,0,5,5,null,0,0,0
-1776957791143,51,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-3,text,true,,118,0,5,5,null,0,0,0
-1776957791143,87,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-5,text,true,,153,0,5,5,null,0,0,0
-1776957791159,71,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-4,text,true,,65,0,5,5,null,0,0,0
-1776957791143,87,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-1,text,true,,602,0,5,5,null,0,0,0
-1776957791159,71,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-2,text,true,,590,0,5,5,null,0,0,0
-1776957791230,10,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-1,text,true,,117,0,5,5,null,0,0,0
-1776957791195,78,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-3,text,true,,1789,0,5,5,null,0,0,0
-1776957791230,43,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-2,text,true,,117,0,5,5,null,0,0,0
-1776957791230,65,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-4,text,true,,53,0,5,5,null,0,0,0
-1776957791230,65,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-5,text,true,,56,0,5,5,null,0,0,0
-1776957791240,57,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-1,text,true,,475,0,5,5,null,0,0,0
-1776957791273,75,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-3,text,true,,65,0,5,5,null,0,0,0
-1776957791273,75,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-2,text,true,,1783,0,5,5,null,0,0,0
-1776957791297,74,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-1,text,true,,66,0,5,5,null,0,0,0
-1776957791296,77,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-5,text,true,,589,0,5,5,null,0,0,0
-1776957791296,78,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-4,text,true,,588,0,5,5,null,0,0,0
-1776957791373,18,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-5,text,true,,118,0,5,5,null,0,0,0
-1776957791374,23,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-4,text,true,,117,0,5,5,null,0,0,0
-1776957791348,60,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-2,text,true,,112,0,5,5,null,0,0,0
-1776957791348,64,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-3,text,true,,55,0,5,5,null,0,0,0
-1776957791371,82,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-1,text,true,,56,0,5,5,null,0,0,0
-1776957791392,76,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-5,text,true,,473,0,5,5,null,0,0,0
-1776957791398,71,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-4,text,true,,1789,0,5,5,null,0,0,0
-1776957791412,63,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-3,text,true,,588,0,5,5,null,0,0,0
-1776957791408,69,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-2,text,true,,56,0,4,4,null,0,0,0
-1776957791468,60,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-5,text,true,,65,0,4,4,null,0,0,0
-1776957791469,59,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-4,text,true,,65,0,4,4,null,0,0,0
-1776957791453,76,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-1,text,true,,603,0,4,4,null,0,0,0
-1776957791478,75,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-2,text,true,,591,0,3,3,null,0,0,0
-1776957791528,43,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-5,text,true,,58,0,2,2,null,0,0,0
-1776957791528,43,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-4,text,true,,53,0,2,2,null,0,0,0
-1776957791571,71,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-4,text,true,,591,0,2,2,null,0,0,0
-1776957791571,71,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-5,text,true,,602,0,2,2,null,0,0,0
-1776957791848,140,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-2,text,true,,117,0,2,2,null,0,0,0
-1776957791644,344,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-1,text,true,,118,0,2,2,null,0,0,0
-1776957791988,25,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-1,text,true,,53,0,2,2,null,0,0,0
-1776957791988,28,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-2,text,true,,168,0,2,2,null,0,0,0
-1776957792016,12,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-2,text,true,,51,0,2,2,null,0,0,0
-1776957792013,15,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-1,text,true,,53,0,2,2,null,0,0,0
-1776957792028,16,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-2,text,true,,63,0,2,2,null,0,0,0
-1776957792028,16,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-1,text,true,,63,0,2,2,null,0,0,0
-1776957792049,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-3,text,true,,117,0,3,3,null,0,0,0
-1776957792050,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-3,text,true,,168,0,3,3,null,0,0,0
-1776957792052,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-3,text,true,,53,0,3,3,null,0,0,0
-1776957792053,2,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-3,text,true,,68,0,3,3,null,0,0,0
-1776957792044,37,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-1,text,true,,50,0,3,3,null,0,0,0
-1776957792044,37,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-2,text,true,,51,0,3,3,null,0,0,0
-1776957792055,27,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-3,text,true,,186,0,3,3,null,0,0,0
-1776957792081,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-1,text,true,,117,0,3,3,null,0,0,0
-1776957792081,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-2,text,true,,118,0,3,3,null,0,0,0
-1776957792082,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-3,text,true,,117,0,3,3,null,0,0,0
-1776957792082,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-1,text,true,,52,0,3,3,null,0,0,0
-1776957792083,0,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-2,text,true,,52,0,3,3,null,0,0,0
-1776957792083,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-3,text,true,,53,0,3,3,null,0,0,0
-1776957792084,0,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-3,text,true,,51,0,3,3,null,0,0,0
-1776957792083,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-1,text,true,,53,0,3,3,null,0,0,0
-1776957792083,2,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-2,text,true,,54,0,3,3,null,0,0,0
-1776957792084,2,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-1,text,true,,66,0,3,3,null,0,0,0
-1776957792085,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-2,text,true,,63,0,3,3,null,0,0,0
-1776957792084,2,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-3,text,true,,68,0,3,3,null,0,0,0
-1776957792086,3,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-1,text,true,,185,0,3,3,null,0,0,0
-1776957792086,3,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-2,text,true,,188,0,3,3,null,0,0,0
-1776957792086,3,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-3,text,true,,188,0,3,3,null,0,0,0
-1776957792089,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-3,text,true,,25,0,3,3,null,0,0,0
-1776957792089,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-2,text,true,,117,0,3,3,null,0,0,0
-1776957792089,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-1,text,true,,117,0,3,3,null,0,0,0
-1776957792090,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-3,text,true,,53,0,3,3,null,0,0,0
-1776957792091,0,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-3,text,true,,51,0,3,3,null,0,0,0
-1776957792090,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-1,text,true,,171,0,3,3,null,0,0,0
-1776957792092,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-1,text,true,,54,0,3,3,null,0,0,0
-1776957792090,3,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-2,text,true,,168,0,3,3,null,0,0,0
-1776957792091,2,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-3,text,true,,68,0,3,3,null,0,0,0
-1776957792093,0,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-2,text,true,,52,0,3,3,null,0,0,0
-1776957792093,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-1,text,true,,65,0,3,3,null,0,0,0
-1776957792094,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-2,text,true,,65,0,3,3,null,0,0,0
-1776957792093,3,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-3,text,true,,189,0,3,3,null,0,0,0
-1776957792094,2,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-1,text,true,,187,0,3,3,null,0,0,0
-1776957792095,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-2,text,true,,187,0,3,3,null,0,0,0
-1776957792096,0,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-3,text,true,,116,0,3,3,null,0,0,0
-1776957792096,0,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-1,text,true,,117,0,3,3,null,0,0,0
-1776957792096,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-2,text,true,,118,0,3,3,null,0,0,0
-1776957792096,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-3,text,true,,165,0,3,3,null,0,0,0
-1776957792097,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-1,text,true,,167,0,3,3,null,0,0,0
-1776957792097,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-2,text,true,,167,0,3,3,null,0,0,0
-1776957792098,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-3,text,true,,52,0,3,3,null,0,0,0
-1776957792098,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-1,text,true,,51,0,3,3,null,0,0,0
-1776957792099,0,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-2,text,true,,51,0,3,3,null,0,0,0
-1776957792099,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-2,text,true,,63,0,3,3,null,0,0,0
-1776957792099,2,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-3,text,true,,66,0,3,3,null,0,0,0
-1776957792100,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-2,text,true,,51,0,3,3,null,0,0,0
-1776957792101,0,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-3,text,true,,50,0,3,3,null,0,0,0
-1776957792099,3,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-1,text,true,,65,0,3,3,null,0,0,0
-1776957792102,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-3,text,true,,25,0,3,3,null,0,0,0
-1776957792103,0,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-3,text,true,,52,0,3,3,null,0,0,0
-1776957792102,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-2,text,true,,117,0,3,3,null,0,0,0
-1776957792103,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-3,text,true,,52,0,3,3,null,0,0,0
-1776957792103,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-2,text,true,,52,0,3,3,null,0,0,0
-1776957792102,2,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-1,text,true,,183,0,3,3,null,0,0,0
-1776957792104,0,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-2,text,true,,51,0,3,3,null,0,0,0
-1776957792104,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-2,text,true,,63,0,3,3,null,0,0,0
-1776957792104,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-3,text,true,,66,0,3,3,null,0,0,0
-1776957792104,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-1,text,true,,118,0,3,3,null,0,0,0
-1776957792105,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-3,text,true,,50,0,3,3,null,0,0,0
-1776957792105,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-2,text,true,,50,0,3,3,null,0,0,0
-1776957792106,0,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-3,text,true,,24,0,3,3,null,0,0,0
-1776957792105,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-1,text,true,,171,0,3,3,null,0,0,0
-1776957792106,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-2,text,true,,118,0,3,3,null,0,0,0
-1776957792106,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-3,text,true,,52,0,3,3,null,0,0,0
-1776957792107,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-3,text,true,,54,0,3,3,null,0,0,0
-1776957792107,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-1,text,true,,54,0,3,3,null,0,0,0
-1776957792107,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-2,text,true,,165,0,3,3,null,0,0,0
-1776957792108,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-3,text,true,,67,0,3,3,null,0,0,0
-1776957792108,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-2,text,true,,53,0,3,3,null,0,0,0
-1776957792108,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-1,text,true,,66,0,3,3,null,0,0,0
-1776957792109,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-3,text,true,,190,0,3,3,null,0,0,0
-1776957792109,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-1,text,true,,49,0,3,3,null,0,0,0
-1776957792109,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-2,text,true,,66,0,3,3,null,0,0,0
-1776957792110,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-3,text,true,,24,0,3,3,null,0,0,0
-1776957792110,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-2,text,true,,50,0,3,3,null,0,0,0
-1776957792110,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-1,text,true,,117,0,3,3,null,0,0,0
-1776957792111,0,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-3,text,true,,51,0,3,3,null,0,0,0
-1776957792111,0,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-2,text,true,,24,0,3,3,null,0,0,0
-1776957792111,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-3,text,true,,51,0,3,3,null,0,0,0
-1776957792112,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-2,text,true,,167,0,3,3,null,0,0,0
-1776957792112,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-3,text,true,,63,0,3,3,null,0,0,0
-1776957792113,0,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-2,text,true,,52,0,3,3,null,0,0,0
-1776957792111,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-1,text,true,,168,0,3,3,null,0,0,0
-1776957792113,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-3,text,true,,49,0,3,3,null,0,0,0
-1776957792113,3,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-1,text,true,,51,0,3,3,null,0,0,0
-1776957792114,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-3,text,true,,118,0,3,3,null,0,0,0
-1776957792113,3,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-2,text,true,,67,0,3,3,null,0,0,0
-1776957792116,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-1,text,true,,67,0,3,3,null,0,0,0
-1776957792116,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-3,text,true,,167,0,3,3,null,0,0,0
-1776957792117,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-1,text,true,,50,0,3,3,null,0,0,0
-1776957792116,2,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-2,text,true,,184,0,3,3,null,0,0,0
-1776957792118,0,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-1,text,true,,24,0,3,3,null,0,0,0
-1776957792118,0,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-2,text,true,,117,0,3,3,null,0,0,0
-1776957792118,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-3,text,true,,54,0,3,3,null,0,0,0
-1776957792118,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-1,text,true,,167,0,3,3,null,0,0,0
-1776957792118,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-2,text,true,,167,0,3,3,null,0,0,0
-1776957792119,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-3,text,true,,66,0,3,3,null,0,0,0
-1776957792119,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-1,text,true,,54,0,3,3,null,0,0,0
-1776957792120,0,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-3,text,true,,50,0,3,3,null,0,0,0
-1776957792119,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-2,text,true,,54,0,3,3,null,0,0,0
-1776957792120,0,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-1,text,true,,67,0,3,3,null,0,0,0
-1776957792120,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-3,text,true,,25,0,3,3,null,0,0,0
-1776957792120,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-1,text,true,,50,0,3,3,null,0,0,0
-1776957792120,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-2,text,true,,66,0,3,3,null,0,0,0
-1776957792121,0,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-3,text,true,,167,0,3,3,null,0,0,0
-1776957792121,0,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-1,text,true,,118,0,3,3,null,0,0,0
-1776957792121,2,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-2,text,true,,186,0,3,3,null,0,0,0
-1776957792121,2,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-3,text,true,,53,0,3,3,null,0,0,0
-1776957792121,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-1,text,true,,167,0,3,3,null,0,0,0
-1776957792123,0,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-2,text,true,,117,0,3,3,null,0,0,0
-1776957792123,0,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-1,text,true,,51,0,3,3,null,0,0,0
-1776957792123,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-3,text,true,,66,0,3,3,null,0,0,0
-1776957792124,0,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-3,text,true,,50,0,3,3,null,0,0,0
-1776957792123,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-2,text,true,,169,0,3,3,null,0,0,0
-1776957792124,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-1,text,true,,66,0,3,3,null,0,0,0
-1776957792124,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-3,text,true,,24,0,3,3,null,0,0,0
-1776957792124,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-2,text,true,,52,0,3,3,null,0,0,0
-1776957792125,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-1,text,true,,191,0,3,3,null,0,0,0
-1776957792126,0,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-1,text,true,,117,0,3,3,null,0,0,0
-1776957792125,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-3,text,true,,163,0,3,3,null,0,0,0
-1776957792125,2,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-2,text,true,,67,0,3,3,null,0,0,0
-1776957792126,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-1,text,true,,163,0,3,3,null,0,0,0
-1776957792127,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-3,text,true,,52,0,3,3,null,0,0,0
-1776957792127,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-1,text,true,,51,0,3,3,null,0,0,0
-1776957792128,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-3,text,true,,66,0,3,3,null,0,0,0
-1776957792128,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-1,text,true,,66,0,3,3,null,0,0,0
-1776957792127,2,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-2,text,true,,188,0,3,3,null,0,0,0
-1776957792129,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-1,text,true,,50,0,3,3,null,0,0,0
-1776957792129,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-3,text,true,,189,0,3,3,null,0,0,0
-1776957792129,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-2,text,true,,117,0,3,3,null,0,0,0
-1776957792130,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-2,text,true,,52,0,2,2,null,0,0,0
-1776957792130,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-1,text,true,,118,0,2,2,null,0,0,0
-1776957792131,0,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-2,text,true,,51,0,2,2,null,0,0,0
-1776957792131,0,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-1,text,true,,167,0,2,2,null,0,0,0
-1776957792131,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-2,text,true,,66,0,2,2,null,0,0,0
-1776957792131,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-1,text,true,,55,0,2,2,null,0,0,0
-1776957792132,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-2,text,true,,188,0,2,2,null,0,0,0
-1776957792132,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-1,text,true,,67,0,1,1,null,0,0,0
-1776957792133,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-1,text,true,,187,0,1,1,null,0,0,0
-1776957792246,3,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-4,text,true,,117,0,1,1,null,0,0,0
-1776957792249,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-4,text,true,,167,0,1,1,null,0,0,0
-1776957792251,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-4,text,true,,54,0,1,1,null,0,0,0
-1776957792252,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-4,text,true,,66,0,1,1,null,0,0,0
-1776957792253,2,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-4,text,true,,188,0,1,1,null,0,0,0
-1776957792255,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-4,text,true,,24,0,1,1,null,0,0,0
-1776957792256,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-4,text,true,,168,0,1,1,null,0,0,0
-1776957792257,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-4,text,true,,54,0,1,1,null,0,0,0
-1776957792258,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-4,text,true,,66,0,1,1,null,0,0,0
-1776957792259,2,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-4,text,true,,181,0,1,1,null,0,0,0
-1776957792261,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-4,text,true,,116,0,1,1,null,0,0,0
-1776957792262,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-4,text,true,,167,0,1,1,null,0,0,0
-1776957792263,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-4,text,true,,53,0,1,1,null,0,0,0
-1776957792264,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-4,text,true,,68,0,1,1,null,0,0,0
-1776957792265,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-4,text,true,,186,0,1,1,null,0,0,0
-1776957792266,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-4,text,true,,117,0,1,1,null,0,0,0
-1776957792267,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-4,text,true,,53,0,1,1,null,0,0,0
-1776957792268,0,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-4,text,true,,53,0,1,1,null,0,0,0
-1776957792268,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-4,text,true,,63,0,1,1,null,0,0,0
-1776957792269,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-4,text,true,,186,0,1,1,null,0,0,0
-1776957792270,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-4,text,true,,24,0,1,1,null,0,0,0
-1776957792271,0,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-4,text,true,,52,0,1,1,null,0,0,0
-1776957792271,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-4,text,true,,53,0,1,1,null,0,0,0
-1776957792272,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-4,text,true,,66,0,1,1,null,0,0,0
-1776957792273,2,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-4,text,true,,188,0,1,1,null,0,0,0
-1776957792275,0,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-4,text,true,,117,0,1,1,null,0,0,0
-1776957792275,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-4,text,true,,51,0,1,1,null,0,0,0
-1776957792276,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-4,text,true,,54,0,1,1,null,0,0,0
-1776957792277,0,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-4,text,true,,63,0,1,1,null,0,0,0
-1776957792277,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-4,text,true,,50,0,1,1,null,0,0,0
-1776957792278,0,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-4,text,true,,118,0,1,1,null,0,0,0
-1776957792278,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-4,text,true,,170,0,1,1,null,0,0,0
-1776957792279,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-4,text,true,,54,0,1,1,null,0,0,0
-1776957792280,0,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-4,text,true,,62,0,1,1,null,0,0,0
-1776957792280,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-4,text,true,,188,0,1,1,null,0,0,0
-1776957792281,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-4,text,true,,117,0,1,1,null,0,0,0
-1776957792282,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-4,text,true,,167,0,1,1,null,0,0,0
-1776957792284,0,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-4,text,true,,52,0,1,1,null,0,0,0
-1776957792284,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-4,text,true,,64,0,1,1,null,0,0,0
-1776957792285,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-4,text,true,,188,0,1,1,null,0,0,0
-1776957792286,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-4,text,true,,117,0,1,1,null,0,0,0
-1776957792287,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-4,text,true,,168,0,1,1,null,0,0,0
-1776957792288,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-4,text,true,,51,0,1,1,null,0,0,0
-1776957792289,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-4,text,true,,66,0,1,1,null,0,0,0
-1776957792290,0,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-4,text,true,,186,0,1,1,null,0,0,0
-1776957792290,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-4,text,true,,117,0,1,1,null,0,0,0
-1776957792291,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-4,text,true,,167,0,1,1,null,0,0,0
-1776957792292,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-4,text,true,,52,0,1,1,null,0,0,0
-1776957792293,0,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-4,text,true,,67,0,1,1,null,0,0,0
-1776957792293,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-4,text,true,,50,0,1,1,null,0,0,0
-1776957792448,4,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-5,text,true,,117,0,1,1,null,0,0,0
-1776957792452,3,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-5,text,true,,168,0,1,1,null,0,0,0
-1776957792455,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-5,text,true,,54,0,1,1,null,0,0,0
-1776957792456,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-5,text,true,,66,0,1,1,null,0,0,0
-1776957792458,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-5,text,true,,187,0,1,1,null,0,0,0
-1776957792459,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-5,text,true,,117,0,1,1,null,0,0,0
-1776957792460,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-5,text,true,,168,0,1,1,null,0,0,0
-1776957792462,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-5,text,true,,53,0,1,1,null,0,0,0
-1776957792463,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-5,text,true,,66,0,1,1,null,0,0,0
-1776957792464,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-5,text,true,,190,0,1,1,null,0,0,0
-1776957792465,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-5,text,true,,118,0,1,1,null,0,0,0
-1776957792466,0,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-5,text,true,,53,0,1,1,null,0,0,0
-1776957792466,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-5,text,true,,51,0,1,1,null,0,0,0
-1776957792467,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-5,text,true,,66,0,1,1,null,0,0,0
-1776957792468,2,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-5,text,true,,189,0,1,1,null,0,0,0
-1776957792470,0,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-5,text,true,,118,0,1,1,null,0,0,0
-1776957792470,7,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-5,text,true,,166,0,1,1,null,0,0,0
-1776957792477,2,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-5,text,true,,53,0,1,1,null,0,0,0
-1776957792479,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-5,text,true,,66,0,1,1,null,0,0,0
-1776957792480,0,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-5,text,true,,51,0,1,1,null,0,0,0
-1776957792480,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-5,text,true,,117,0,1,1,null,0,0,0
-1776957792481,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-5,text,true,,167,0,1,1,null,0,0,0
-1776957792482,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-5,text,true,,53,0,1,1,null,0,0,0
-1776957792483,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-5,text,true,,66,0,1,1,null,0,0,0
-1776957792484,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-5,text,true,,191,0,1,1,null,0,0,0
-1776957792485,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-5,text,true,,117,0,1,1,null,0,0,0
-1776957792486,0,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-5,text,true,,166,0,1,1,null,0,0,0
-1776957792486,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-5,text,true,,53,0,1,1,null,0,0,0
-1776957792487,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-5,text,true,,65,0,1,1,null,0,0,0
-1776957792488,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-5,text,true,,51,0,1,1,null,0,0,0
-1776957792489,0,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-5,text,true,,117,0,1,1,null,0,0,0
-1776957792489,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-5,text,true,,169,0,1,1,null,0,0,0
-1776957792490,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-5,text,true,,53,0,1,1,null,0,0,0
-1776957792491,0,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-5,text,true,,63,0,1,1,null,0,0,0
-1776957792491,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-5,text,true,,187,0,1,1,null,0,0,0
-1776957792492,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-5,text,true,,24,0,1,1,null,0,0,0
-1776957792493,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-5,text,true,,166,0,1,1,null,0,0,0
-1776957792494,0,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-5,text,true,,52,0,1,1,null,0,0,0
-1776957792494,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-5,text,true,,67,0,1,1,null,0,0,0
-1776957792495,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-5,text,true,,50,0,1,1,null,0,0,0
-1776957792496,0,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-5,text,true,,117,0,1,1,null,0,0,0
-1776957792496,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-5,text,true,,160,0,1,1,null,0,0,0
-1776957792497,0,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-5,text,true,,52,0,1,1,null,0,0,0
-1776957792497,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-5,text,true,,66,0,1,1,null,0,0,0
-1776957792498,3,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-5,text,true,,186,0,1,1,null,0,0,0
-1776957792501,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-5,text,true,,117,0,1,1,null,0,0,0
-1776957792502,0,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-5,text,true,,52,0,1,1,null,0,0,0
-1776957792502,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-5,text,true,,53,0,1,1,null,0,0,0
-1776957792503,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-5,text,true,,65,0,1,1,null,0,0,0
-1776957792504,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-5,text,true,,191,0,1,1,null,0,0,0
-1776957792506,180,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-1,text,true,,90,0,1,1,null,0,0,0
-1776957792686,11,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-1,text,true,,54,0,1,1,null,0,0,0
-1776957792709,2,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-2,text,true,,81,0,2,2,null,0,0,0
-1776957792697,19,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-1,text,true,,115,0,2,2,null,0,0,0
-1776957792711,5,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-2,text,true,,62,0,2,2,null,0,0,0
-1776957792716,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-2,text,true,,110,0,2,2,null,0,0,0
-1776957792718,9,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-2,text,true,,57,0,2,2,null,0,0,0
-1776957792716,11,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-1,text,true,,52,0,2,2,null,0,0,0
-1776957792727,18,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-2,text,true,,313,0,2,2,null,0,0,0
-1776957792727,18,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-1,text,true,,311,0,2,2,null,0,0,0
-1776957792745,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-2,text,true,,76,0,2,2,null,0,0,0
-1776957792745,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-1,text,true,,79,0,2,2,null,0,0,0
-1776957792746,5,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-1,text,true,,54,0,2,2,null,0,0,0
-1776957792751,3,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-1,text,true,,151,0,2,2,null,0,0,0
-1776957792746,8,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-2,text,true,,62,0,2,2,null,0,0,0
-1776957792754,1,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-2,text,true,,29,0,2,2,null,0,0,0
-1776957792754,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-1,text,true,,54,0,2,2,null,0,0,0
-1776957792755,6,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-2,text,true,,59,0,2,2,null,0,0,0
-1776957792755,9,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-1,text,true,,314,0,2,2,null,0,0,0
-1776957792761,3,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-2,text,true,,312,0,2,2,null,0,0,0
-1776957792764,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-1,text,true,,88,0,2,2,null,0,0,0
-1776957792764,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-2,text,true,,90,0,2,2,null,0,0,0
-1776957792765,3,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-2,text,true,,55,0,2,2,null,0,0,0
-1776957792765,3,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-1,text,true,,61,0,2,2,null,0,0,0
-1776957792768,0,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-2,text,true,,31,0,2,2,null,0,0,0
-1776957792768,0,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-1,text,true,,30,0,2,2,null,0,0,0
-1776957792768,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-2,text,true,,52,0,2,2,null,0,0,0
-1776957792768,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-1,text,true,,54,0,2,2,null,0,0,0
-1776957792770,8,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-1,text,true,,310,0,2,2,null,0,0,0
-1776957792770,8,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-2,text,true,,314,0,2,2,null,0,0,0
-1776957792778,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-2,text,true,,80,0,2,2,null,0,0,0
-1776957792778,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-1,text,true,,84,0,2,2,null,0,0,0
-1776957792778,3,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-2,text,true,,55,0,2,2,null,0,0,0
-1776957792781,1,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-2,text,true,,31,0,2,2,null,0,0,0
-1776957792778,4,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-1,text,true,,61,0,2,2,null,0,0,0
-1776957792782,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-2,text,true,,55,0,2,2,null,0,0,0
-1776957792782,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-1,text,true,,109,0,2,2,null,0,0,0
-1776957792784,4,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-1,text,true,,56,0,2,2,null,0,0,0
-1776957792784,7,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-2,text,true,,314,0,2,2,null,0,0,0
-1776957792788,3,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-1,text,true,,311,0,2,2,null,0,0,0
-1776957792791,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-1,text,true,,83,0,2,2,null,0,0,0
-1776957792791,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-2,text,true,,81,0,2,2,null,0,0,0
-1776957792791,4,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-1,text,true,,54,0,2,2,null,0,0,0
-1776957792795,0,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-1,text,true,,30,0,2,2,null,0,0,0
-1776957792791,4,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-2,text,true,,61,0,2,2,null,0,0,0
-1776957792795,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-1,text,true,,55,0,2,2,null,0,0,0
-1776957792795,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-2,text,true,,109,0,2,2,null,0,0,0
-1776957792797,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-2,text,true,,56,0,2,2,null,0,0,0
-1776957792797,4,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-1,text,true,,315,0,2,2,null,0,0,0
-1776957792799,2,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-2,text,true,,309,0,2,2,null,0,0,0
-1776957792801,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-1,text,true,,80,0,2,2,null,0,0,0
-1776957792801,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-2,text,true,,76,0,2,2,null,0,0,0
-1776957792802,4,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-2,text,true,,62,0,2,2,null,0,0,0
-1776957792802,4,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-1,text,true,,62,0,2,2,null,0,0,0
-1776957792806,4,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-1,text,true,,30,0,2,2,null,0,0,0
-1776957792806,4,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-2,text,true,,153,0,2,2,null,0,0,0
-1776957792810,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-1,text,true,,54,0,2,2,null,0,0,0
-1776957792810,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-2,text,true,,61,0,2,2,null,0,0,0
-1776957792812,5,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-2,text,true,,314,0,2,2,null,0,0,0
-1776957792812,5,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-1,text,true,,311,0,2,2,null,0,0,0
-1776957792817,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-1,text,true,,82,0,2,2,null,0,0,0
-1776957792817,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-2,text,true,,77,0,2,2,null,0,0,0
-1776957792817,5,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-1,text,true,,60,0,2,2,null,0,0,0
-1776957792818,4,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-2,text,true,,62,0,2,2,null,0,0,0
-1776957792822,7,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-2,text,true,,153,0,2,2,null,0,0,0
-1776957792822,7,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-1,text,true,,114,0,2,2,null,0,0,0
-1776957792829,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-1,text,true,,51,0,2,2,null,0,0,0
-1776957792829,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-2,text,true,,52,0,2,2,null,0,0,0
-1776957792830,5,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-2,text,true,,315,0,2,2,null,0,0,0
-1776957792830,5,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-1,text,true,,314,0,2,2,null,0,0,0
-1776957792835,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-2,text,true,,80,0,2,2,null,0,0,0
-1776957792835,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-1,text,true,,82,0,2,2,null,0,0,0
-1776957792836,1,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-2,text,true,,54,0,2,2,null,0,0,0
-1776957792836,2,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-1,text,true,,62,0,2,2,null,0,0,0
-1776957792838,1,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-1,text,true,,110,0,2,2,null,0,0,0
-1776957792837,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-2,text,true,,110,0,2,2,null,0,0,0
-1776957792839,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-1,text,true,,52,0,2,2,null,0,0,0
-1776957792839,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-2,text,true,,59,0,2,2,null,0,0,0
-1776957792841,5,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-1,text,true,,310,0,2,2,null,0,0,0
-1776957792841,5,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-2,text,true,,312,0,2,2,null,0,0,0
-1776957792846,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-2,text,true,,81,0,2,2,null,0,0,0
-1776957792846,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-1,text,true,,80,0,2,2,null,0,0,0
-1776957792847,7,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-2,text,true,,63,0,2,2,null,0,0,0
-1776957792847,7,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-1,text,true,,61,0,2,2,null,0,0,0
-1776957792854,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-2,text,true,,30,0,2,2,null,0,0,0
-1776957792854,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-1,text,true,,110,0,2,2,null,0,0,0
-1776957792856,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-2,text,true,,54,0,2,2,null,0,0,0
-1776957792856,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-1,text,true,,52,0,2,2,null,0,0,0
-1776957792858,9,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-1,text,true,,313,0,2,2,null,0,0,0
-1776957792858,9,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-2,text,true,,311,0,2,2,null,0,0,0
-1776957792867,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-2,text,true,,87,0,2,2,null,0,0,0
-1776957792867,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-1,text,true,,83,0,2,2,null,0,0,0
-1776957792868,4,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-2,text,true,,54,0,2,2,null,0,0,0
-1776957792868,4,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-1,text,true,,61,0,2,2,null,0,0,0
-1776957792872,6,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-2,text,true,,155,0,2,2,null,0,0,0
-1776957792872,6,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-1,text,true,,150,0,2,2,null,0,0,0
-1776957792878,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-2,text,true,,54,0,2,2,null,0,0,0
-1776957792878,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-1,text,true,,56,0,2,2,null,0,0,0
-1776957792879,6,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-2,text,true,,315,0,2,2,null,0,0,0
-1776957792879,6,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-1,text,true,,312,0,2,2,null,0,0,0
-1776957792911,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-3,text,true,,82,0,1,1,null,0,0,0
-1776957792912,1,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-3,text,true,,60,0,1,1,null,0,0,0
-1776957792913,3,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-3,text,true,,153,0,1,1,null,0,0,0
-1776957792916,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-3,text,true,,52,0,1,1,null,0,0,0
-1776957792918,5,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-3,text,true,,314,0,1,1,null,0,0,0
-1776957792923,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-3,text,true,,91,0,1,1,null,0,0,0
-1776957792924,3,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-3,text,true,,62,0,1,1,null,0,0,0
-1776957792927,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-3,text,true,,111,0,1,1,null,0,0,0
-1776957792929,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-3,text,true,,52,0,1,1,null,0,0,0
-1776957792930,3,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-3,text,true,,313,0,1,1,null,0,0,0
-1776957792933,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-3,text,true,,80,0,1,1,null,0,0,0
-1776957792934,4,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-3,text,true,,62,0,1,1,null,0,0,0
-1776957792938,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-3,text,true,,110,0,1,1,null,0,0,0
-1776957792940,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-3,text,true,,55,0,1,1,null,0,0,0
-1776957792942,4,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-3,text,true,,312,0,1,1,null,0,0,0
-1776957792946,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-3,text,true,,79,0,1,1,null,0,0,0
-1776957792947,0,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-3,text,true,,55,0,1,1,null,0,0,0
-1776957792947,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-3,text,true,,151,0,1,1,null,0,0,0
-1776957792949,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-3,text,true,,54,0,1,1,null,0,0,0
-1776957792950,2,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-3,text,true,,311,0,1,1,null,0,0,0
-1776957792952,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-3,text,true,,80,0,1,1,null,0,0,0
-1776957792953,0,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-3,text,true,,55,0,1,1,null,0,0,0
-1776957792953,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-3,text,true,,111,0,1,1,null,0,0,0
-1776957792955,0,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-3,text,true,,61,0,1,1,null,0,0,0
-1776957792955,7,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-3,text,true,,314,0,1,1,null,0,0,0
-1776957792962,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-3,text,true,,81,0,1,1,null,0,0,0
-1776957792962,6,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-3,text,true,,61,0,1,1,null,0,0,0
-1776957792968,0,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-3,text,true,,30,0,1,1,null,0,0,0
-1776957792968,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-3,text,true,,52,0,1,1,null,0,0,0
-1776957792969,5,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-3,text,true,,313,0,1,1,null,0,0,0
-1776957792974,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-3,text,true,,87,0,1,1,null,0,0,0
-1776957792975,0,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-3,text,true,,54,0,1,1,null,0,0,0
-1776957792975,3,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-3,text,true,,152,0,1,1,null,0,0,0
-1776957792978,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-3,text,true,,54,0,1,1,null,0,0,0
-1776957792979,3,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-3,text,true,,315,0,1,1,null,0,0,0
-1776957792982,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-3,text,true,,79,0,1,1,null,0,0,0
-1776957792983,4,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-3,text,true,,61,0,1,1,null,0,0,0
-1776957792987,0,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-3,text,true,,31,0,1,1,null,0,0,0
-1776957792987,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-3,text,true,,56,0,1,1,null,0,0,0
-1776957792988,3,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-3,text,true,,313,0,1,1,null,0,0,0
-1776957792991,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-3,text,true,,83,0,1,1,null,0,0,0
-1776957792992,0,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-3,text,true,,54,0,1,1,null,0,0,0
-1776957792992,4,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-3,text,true,,155,0,1,1,null,0,0,0
-1776957792996,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-3,text,true,,55,0,1,1,null,0,0,0
-1776957792997,3,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-3,text,true,,314,0,1,1,null,0,0,0
-1776957793000,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-3,text,true,,80,0,1,1,null,0,0,0
-1776957793000,5,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-3,text,true,,60,0,1,1,null,0,0,0
-1776957793005,4,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-3,text,true,,114,0,1,1,null,0,0,0
-1776957793009,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-3,text,true,,56,0,1,1,null,0,0,0
-1776957793010,5,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-3,text,true,,315,0,1,1,null,0,0,0
-1776957793107,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-4,text,true,,81,0,1,1,null,0,0,0
-1776957793108,3,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-4,text,true,,61,0,1,1,null,0,0,0
-1776957793111,1,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-4,text,true,,31,0,1,1,null,0,0,0
-1776957793112,0,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-4,text,true,,54,0,1,1,null,0,0,0
-1776957793112,5,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-4,text,true,,313,0,1,1,null,0,0,0
-1776957793117,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-4,text,true,,81,0,1,1,null,0,0,0
-1776957793117,4,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-4,text,true,,60,0,1,1,null,0,0,0
-1776957793121,0,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-4,text,true,,31,0,1,1,null,0,0,0
-1776957793121,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-4,text,true,,55,0,1,1,null,0,0,0
-1776957793122,4,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-4,text,true,,313,0,1,1,null,0,0,0
-1776957793126,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-4,text,true,,80,0,1,1,null,0,0,0
-1776957793126,2,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-4,text,true,,61,0,1,1,null,0,0,0
-1776957793128,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-4,text,true,,110,0,1,1,null,0,0,0
-1776957793130,0,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-4,text,true,,57,0,1,1,null,0,0,0
-1776957793130,3,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-4,text,true,,311,0,1,1,null,0,0,0
-1776957793133,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-4,text,true,,76,0,1,1,null,0,0,0
-1776957793133,4,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-4,text,true,,61,0,1,1,null,0,0,0
-1776957793137,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-4,text,true,,72,0,1,1,null,0,0,0
-1776957793139,0,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-4,text,true,,59,0,1,1,null,0,0,0
-1776957793139,3,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-4,text,true,,313,0,1,1,null,0,0,0
-1776957793143,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-4,text,true,,80,0,1,1,null,0,0,0
-1776957793143,0,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-4,text,true,,54,0,1,1,null,0,0,0
-1776957793143,0,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-4,text,true,,30,0,1,1,null,0,0,0
-1776957793143,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-4,text,true,,52,0,1,1,null,0,0,0
-1776957793144,2,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-4,text,true,,312,0,1,1,null,0,0,0
-1776957793146,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-4,text,true,,80,0,1,1,null,0,0,0
-1776957793147,0,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-4,text,true,,54,0,1,1,null,0,0,0
-1776957793147,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-4,text,true,,112,0,1,1,null,0,0,0
-1776957793149,0,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-4,text,true,,56,0,1,1,null,0,0,0
-1776957793149,3,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-4,text,true,,313,0,1,1,null,0,0,0
-1776957793152,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-4,text,true,,79,0,1,1,null,0,0,0
-1776957793152,3,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-4,text,true,,61,0,1,1,null,0,0,0
-1776957793155,1,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-4,text,true,,30,0,1,1,null,0,0,0
-1776957793156,0,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-4,text,true,,54,0,1,1,null,0,0,0
-1776957793156,4,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-4,text,true,,314,0,1,1,null,0,0,0
-1776957793160,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-4,text,true,,76,0,1,1,null,0,0,0
-1776957793161,2,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-4,text,true,,61,0,1,1,null,0,0,0
-1776957793163,1,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-4,text,true,,29,0,1,1,null,0,0,0
-1776957793164,0,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-4,text,true,,54,0,1,1,null,0,0,0
-1776957793164,3,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-4,text,true,,310,0,1,1,null,0,0,0
-1776957793167,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-4,text,true,,80,0,1,1,null,0,0,0
-1776957793167,1,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-4,text,true,,54,0,1,1,null,0,0,0
-1776957793168,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-4,text,true,,151,0,1,1,null,0,0,0
-1776957793170,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-4,text,true,,54,0,1,1,null,0,0,0
-1776957793171,4,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-4,text,true,,312,0,1,1,null,0,0,0
-1776957793175,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-4,text,true,,81,0,1,1,null,0,0,0
-1776957793176,0,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-4,text,true,,54,0,1,1,null,0,0,0
-1776957793176,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-4,text,true,,111,0,1,1,null,0,0,0
-1776957793178,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-4,text,true,,54,0,1,1,null,0,0,0
-1776957793179,3,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-4,text,true,,310,0,1,1,null,0,0,0
-1776957793311,2,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-5,text,true,,83,0,1,1,null,0,0,0
-1776957793313,2,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-5,text,true,,61,0,1,1,null,0,0,0
-1776957793315,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-5,text,true,,109,0,1,1,null,0,0,0
-1776957793317,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-5,text,true,,54,0,1,1,null,0,0,0
-1776957793318,3,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-5,text,true,,312,0,1,1,null,0,0,0
-1776957793321,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-5,text,true,,81,0,1,1,null,0,0,0
-1776957793321,3,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-5,text,true,,62,0,1,1,null,0,0,0
-1776957793324,3,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-5,text,true,,111,0,1,1,null,0,0,0
-1776957793327,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-5,text,true,,59,0,1,1,null,0,0,0
-1776957793328,3,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-5,text,true,,315,0,1,1,null,0,0,0
-1776957793331,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-5,text,true,,83,0,1,1,null,0,0,0
-1776957793332,2,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-5,text,true,,61,0,1,1,null,0,0,0
-1776957793334,3,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-5,text,true,,111,0,1,1,null,0,0,0
-1776957793337,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-5,text,true,,56,0,1,1,null,0,0,0
-1776957793338,7,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-5,text,true,,312,0,1,1,null,0,0,0
-1776957793345,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-5,text,true,,80,0,1,1,null,0,0,0
-1776957793345,1,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-5,text,true,,54,0,1,1,null,0,0,0
-1776957793346,0,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-5,text,true,,31,0,1,1,null,0,0,0
-1776957793346,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-5,text,true,,57,0,1,1,null,0,0,0
-1776957793348,5,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-5,text,true,,314,0,1,1,null,0,0,0
-1776957793353,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-5,text,true,,81,0,1,1,null,0,0,0
-1776957793353,1,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-5,text,true,,54,0,1,1,null,0,0,0
-1776957793354,3,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-5,text,true,,111,0,1,1,null,0,0,0
-1776957793357,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-5,text,true,,54,0,1,1,null,0,0,0
-1776957793359,4,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-5,text,true,,314,0,1,1,null,0,0,0
-1776957793363,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-5,text,true,,80,0,1,1,null,0,0,0
-1776957793364,0,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-5,text,true,,54,0,1,1,null,0,0,0
-1776957793364,3,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-5,text,true,,150,0,1,1,null,0,0,0
-1776957793367,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-5,text,true,,57,0,1,1,null,0,0,0
-1776957793368,5,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-5,text,true,,309,0,1,1,null,0,0,0
-1776957793373,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-5,text,true,,76,0,1,1,null,0,0,0
-1776957793373,4,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-5,text,true,,61,0,1,1,null,0,0,0
-1776957793378,1,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-5,text,true,,111,0,1,1,null,0,0,0
-1776957793379,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-5,text,true,,61,0,1,1,null,0,0,0
-1776957793381,4,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-5,text,true,,314,0,1,1,null,0,0,0
-1776957793385,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-5,text,true,,76,0,1,1,null,0,0,0
-1776957793386,5,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-5,text,true,,61,0,1,1,null,0,0,0
-1776957793391,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-5,text,true,,112,0,1,1,null,0,0,0
-1776957793393,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-5,text,true,,55,0,1,1,null,0,0,0
-1776957793394,3,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-5,text,true,,312,0,1,1,null,0,0,0
-1776957793398,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-5,text,true,,81,0,1,1,null,0,0,0
-1776957793398,3,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-5,text,true,,61,0,1,1,null,0,0,0
-1776957793401,4,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-5,text,true,,149,0,1,1,null,0,0,0
-1776957793405,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-5,text,true,,56,0,1,1,null,0,0,0
-1776957793406,6,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-5,text,true,,315,0,1,1,null,0,0,0
-1776957793412,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-5,text,true,,83,0,1,1,null,0,0,0
-1776957793413,3,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-5,text,true,,62,0,1,1,null,0,0,0
-1776957793417,0,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-5,text,true,,30,0,1,1,null,0,0,0
-1776957793417,0,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-5,text,true,,59,0,1,1,null,0,0,0
-1776957793417,5,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-5,text,true,,313,0,1,1,null,0,0,0
-1776957793423,2096,Close All Connections,200,OK,Teardown - Close Connections 1-1,text,true,,23,0,1,1,null,0,0,0
+1782025313718,715,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-2,text,true,,117,0,5,5,null,0,0,0
+1782025314321,112,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-5,text,true,,117,0,5,5,null,0,0,0
+1782025313516,1062,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-1,text,true,,117,0,5,5,null,0,0,0
+1782025313918,896,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-3,text,true,,118,0,5,5,null,0,0,0
+1782025314118,1617,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-4,text,true,,117,0,5,5,null,0,0,0
+1782025314434,1525,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-2,text,true,,473,0,5,5,null,0,0,0
+1782025314578,1381,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-1,text,true,,475,0,5,5,null,0,0,0
+1782025315736,223,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-4,text,true,,473,0,5,5,null,0,0,0
+1782025314434,1525,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-5,text,true,,1777,0,5,5,null,0,0,0
+1782025314814,1145,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-3,text,true,,1784,0,5,5,null,0,0,0
+1782025315959,89,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-1,text,true,,113,0,5,5,null,0,0,0
+1782025315959,89,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-5,text,true,,65,0,5,5,null,0,0,0
+1782025315959,89,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-2,text,true,,110,0,5,5,null,0,0,0
+1782025315959,89,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-4,text,true,,112,0,5,5,null,0,0,0
+1782025315960,91,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-3,text,true,,114,0,5,5,null,0,0,0
+1782025316048,97,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-5,text,true,,53,0,5,5,null,0,0,0
+1782025316048,97,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-4,text,true,,56,0,5,5,null,0,0,0
+1782025316048,98,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-1,text,true,,55,0,5,5,null,0,0,0
+1782025316051,96,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-3,text,true,,55,0,5,5,null,0,0,0
+1782025316048,99,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-2,text,true,,56,0,5,5,null,0,0,0
+1782025316146,96,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-1,text,true,,600,0,5,5,null,0,0,0
+1782025316147,95,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-3,text,true,,590,0,5,5,null,0,0,0
+1782025316146,96,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-4,text,true,,602,0,5,5,null,0,0,0
+1782025316147,95,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-2,text,true,,599,0,5,5,null,0,0,0
+1782025316146,96,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-5,text,true,,589,0,5,5,null,0,0,0
+1782025316243,15,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-1,text,true,,117,0,5,5,null,0,0,0
+1782025316243,18,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-2,text,true,,118,0,5,5,null,0,0,0
+1782025316243,18,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-4,text,true,,117,0,5,5,null,0,0,0
+1782025316243,35,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-3,text,true,,117,0,5,5,null,0,0,0
+1782025316243,48,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-5,text,true,,117,0,5,5,null,0,0,0
+1782025316258,51,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-1,text,true,,471,0,5,5,null,0,0,0
+1782025316261,49,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-2,text,true,,471,0,5,5,null,0,0,0
+1782025316261,49,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-4,text,true,,1782,0,5,5,null,0,0,0
+1782025316278,57,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-3,text,true,,1782,0,5,5,null,0,0,0
+1782025316291,57,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-5,text,true,,475,0,5,5,null,0,0,0
+1782025316310,49,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-1,text,true,,152,0,5,5,null,0,0,0
+1782025316310,51,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-2,text,true,,113,0,5,5,null,0,0,0
+1782025316310,51,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-4,text,true,,112,0,5,5,null,0,0,0
+1782025316335,54,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-3,text,true,,65,0,5,5,null,0,0,0
+1782025316348,65,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-5,text,true,,151,0,5,5,null,0,0,0
+1782025316360,57,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-1,text,true,,53,0,5,5,null,0,0,0
+1782025316361,57,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-4,text,true,,54,0,5,5,null,0,0,0
+1782025316361,60,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-2,text,true,,53,0,5,5,null,0,0,0
+1782025316390,56,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-3,text,true,,56,0,5,5,null,0,0,0
+1782025316413,55,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-5,text,true,,53,0,5,5,null,0,0,0
+1782025316419,50,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-4,text,true,,589,0,5,5,null,0,0,0
+1782025316417,56,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-1,text,true,,590,0,5,5,null,0,0,0
+1782025316421,61,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-2,text,true,,590,0,5,5,null,0,0,0
+1782025316470,20,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-4,text,true,,117,0,5,5,null,0,0,0
+1782025316473,28,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-1,text,true,,117,0,5,5,null,0,0,0
+1782025316447,73,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-3,text,true,,589,0,5,5,null,0,0,0
+1782025316482,51,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-2,text,true,,118,0,5,5,null,0,0,0
+1782025316468,72,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-5,text,true,,593,0,5,5,null,0,0,0
+1782025316490,51,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-4,text,true,,473,0,5,5,null,0,0,0
+1782025316501,51,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-1,text,true,,471,0,5,5,null,0,0,0
+1782025316520,33,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-3,text,true,,118,0,5,5,null,0,0,0
+1782025316541,49,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-4,text,true,,115,0,5,5,null,0,0,0
+1782025316540,50,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-5,text,true,,117,0,5,5,null,0,0,0
+1782025316533,57,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-2,text,true,,473,0,5,5,null,0,0,0
+1782025316553,50,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-1,text,true,,111,0,5,5,null,0,0,0
+1782025316553,50,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-3,text,true,,1779,0,5,5,null,0,0,0
+1782025316590,53,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-2,text,true,,110,0,5,5,null,0,0,0
+1782025316590,54,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-5,text,true,,1782,0,5,5,null,0,0,0
+1782025316590,56,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-4,text,true,,60,0,5,5,null,0,0,0
+1782025316603,54,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-3,text,true,,65,0,5,5,null,0,0,0
+1782025316603,54,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-1,text,true,,56,0,5,5,null,0,0,0
+1782025316644,55,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-5,text,true,,153,0,5,5,null,0,0,0
+1782025316646,53,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-4,text,true,,587,0,5,5,null,0,0,0
+1782025316643,57,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-2,text,true,,53,0,5,5,null,0,0,0
+1782025316657,58,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-3,text,true,,51,0,5,5,null,0,0,0
+1782025316657,58,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-1,text,true,,601,0,5,5,null,0,0,0
+1782025316700,55,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-4,text,true,,118,0,5,5,null,0,0,0
+1782025316700,65,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-5,text,true,,60,0,5,5,null,0,0,0
+1782025316700,92,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-2,text,true,,591,0,5,5,null,0,0,0
+1782025316715,78,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-1,text,true,,117,0,5,5,null,0,0,0
+1782025316715,87,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-3,text,true,,590,0,5,5,null,0,0,0
+1782025316802,20,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-3,text,true,,115,0,5,5,null,0,0,0
+1782025316755,88,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-4,text,true,,1777,0,5,5,null,0,0,0
+1782025316765,82,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-5,text,true,,588,0,5,5,null,0,0,0
+1782025316792,60,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-2,text,true,,117,0,5,5,null,0,0,0
+1782025316793,72,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-1,text,true,,1783,0,5,5,null,0,0,0
+1782025316847,46,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-5,text,true,,117,0,5,5,null,0,0,0
+1782025316823,72,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-3,text,true,,1780,0,5,5,null,0,0,0
+1782025316844,78,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-4,text,true,,112,0,5,5,null,0,0,0
+1782025316852,78,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-2,text,true,,473,0,5,5,null,0,0,0
+1782025316866,86,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-1,text,true,,154,0,5,5,null,0,0,0
+1782025316893,75,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-5,text,true,,473,0,5,5,null,0,0,0
+1782025316895,73,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-3,text,true,,65,0,5,5,null,0,0,0
+1782025316931,73,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-2,text,true,,66,0,5,5,null,0,0,0
+1782025316923,83,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-4,text,true,,55,0,5,5,null,0,0,0
+1782025316952,87,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-1,text,true,,53,0,5,5,null,0,0,0
+1782025316968,75,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-5,text,true,,155,0,5,5,null,0,0,0
+1782025316969,92,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-3,text,true,,56,0,5,5,null,0,0,0
+1782025317004,95,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-2,text,true,,55,0,5,5,null,0,0,0
+1782025317006,95,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-4,text,true,,603,0,5,5,null,0,0,0
+1782025317043,86,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-5,text,true,,51,0,5,5,null,0,0,0
+1782025317039,92,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-1,text,true,,587,0,5,5,null,0,0,0
+1782025317102,42,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-4,text,true,,116,0,5,5,null,0,0,0
+1782025317061,90,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-3,text,true,,589,0,5,5,null,0,0,0
+1782025317151,38,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-3,text,true,,117,0,5,5,null,0,0,0
+1782025317099,91,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-2,text,true,,601,0,5,5,null,0,0,0
+1782025317131,74,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-1,text,true,,117,0,5,5,null,0,0,0
+1782025317144,72,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-4,text,true,,473,0,5,5,null,0,0,0
+1782025317129,89,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-5,text,true,,591,0,5,5,null,0,0,0
+1782025317190,42,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-2,text,true,,117,0,5,5,null,0,0,0
+1782025317218,46,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-5,text,true,,117,0,5,5,null,0,0,0
+1782025317189,84,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-3,text,true,,1777,0,5,5,null,0,0,0
+1782025317205,97,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-1,text,true,,1782,0,5,5,null,0,0,0
+1782025317216,99,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-4,text,true,,114,0,5,5,null,0,0,0
+1782025317232,84,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-2,text,true,,1782,0,5,5,null,0,0,0
+1782025317264,81,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-5,text,true,,1774,0,5,5,null,0,0,0
+1782025317273,73,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-3,text,true,,112,0,5,5,null,0,0,0
+1782025317303,79,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-1,text,true,,111,0,5,5,null,0,0,0
+1782025317316,75,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-2,text,true,,112,0,5,5,null,0,0,0
+1782025317315,89,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-4,text,true,,58,0,5,5,null,0,0,0
+1782025317345,79,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-5,text,true,,110,0,5,5,null,0,0,0
+1782025317346,82,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-3,text,true,,58,0,5,5,null,0,0,0
+1782025317382,88,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-1,text,true,,55,0,5,5,null,0,0,0
+1782025317392,85,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-2,text,true,,56,0,5,5,null,0,0,0
+1782025317404,98,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-4,text,true,,591,0,5,5,null,0,0,0
+1782025317425,86,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-5,text,true,,55,0,5,5,null,0,0,0
+1782025317428,92,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-3,text,true,,604,0,5,5,null,0,0,0
+1782025317520,18,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-3,text,true,,118,0,5,5,null,0,0,0
+1782025317502,48,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-4,text,true,,117,0,5,5,null,0,0,0
+1782025317477,85,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-2,text,true,,601,0,5,5,null,0,0,0
+1782025317470,92,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-1,text,true,,588,0,5,5,null,0,0,0
+1782025317562,2,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-2,text,true,,117,0,5,5,null,0,0,0
+1782025317512,77,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-5,text,true,,589,0,5,5,null,0,0,0
+1782025317562,43,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-1,text,true,,117,0,5,5,null,0,0,0
+1782025317538,81,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-3,text,true,,1785,0,5,5,null,0,0,0
+1782025317590,33,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-5,text,true,,117,0,5,5,null,0,0,0
+1782025317550,84,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-4,text,true,,1787,0,5,5,null,0,0,0
+1782025317564,79,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-2,text,true,,1782,0,5,5,null,0,0,0
+1782025317605,80,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-1,text,true,,1784,0,5,5,null,0,0,0
+1782025317619,75,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-3,text,true,,110,0,5,5,null,0,0,0
+1782025317623,73,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-5,text,true,,1777,0,5,5,null,0,0,0
+1782025317635,72,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-4,text,true,,153,0,5,5,null,0,0,0
+1782025317643,69,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-2,text,true,,113,0,5,5,null,0,0,0
+1782025317685,76,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-1,text,true,,111,0,5,5,null,0,0,0
+1782025317696,74,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-5,text,true,,110,0,5,5,null,0,0,0
+1782025317695,82,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-3,text,true,,55,0,5,5,null,0,0,0
+1782025317712,83,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-2,text,true,,53,0,5,5,null,0,0,0
+1782025317707,88,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-4,text,true,,58,0,5,5,null,0,0,0
+1782025317761,97,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-1,text,true,,51,0,5,5,null,0,0,0
+1782025317770,96,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-5,text,true,,58,0,5,5,null,0,0,0
+1782025317777,90,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-3,text,true,,589,0,5,5,null,0,0,0
+1782025317795,84,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-2,text,true,,586,0,5,5,null,0,0,0
+1782025317795,96,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-4,text,true,,592,0,5,5,null,0,0,0
+1782025317867,69,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-3,text,true,,117,0,5,5,null,0,0,0
+1782025317880,60,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-2,text,true,,117,0,5,5,null,0,0,0
+1782025317891,49,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-4,text,true,,117,0,5,5,null,0,0,0
+1782025317866,77,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-5,text,true,,600,0,5,5,null,0,0,0
+1782025317858,85,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-1,text,true,,588,0,5,5,null,0,0,0
+1782025317943,34,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-1,text,true,,118,0,5,5,null,0,0,0
+1782025317943,62,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-5,text,true,,117,0,5,5,null,0,0,0
+1782025317940,74,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-4,text,true,,475,0,5,5,null,0,0,0
+1782025317940,75,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-2,text,true,,1781,0,5,5,null,0,0,0
+1782025317936,81,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-3,text,true,,1781,0,5,5,null,0,0,0
+1782025317977,75,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-1,text,true,,473,0,5,5,null,0,0,0
+1782025318014,70,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-4,text,true,,111,0,5,5,null,0,0,0
+1782025318005,80,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-5,text,true,,1778,0,5,5,null,0,0,0
+1782025318015,70,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-2,text,true,,111,0,5,5,null,0,0,0
+1782025318017,68,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-3,text,true,,66,0,5,5,null,0,0,0
+1782025318052,75,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-1,text,true,,65,0,5,5,null,0,0,0
+1782025318085,75,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-5,text,true,,64,0,5,5,null,0,0,0
+1782025318085,79,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-2,text,true,,56,0,5,5,null,0,0,0
+1782025318084,80,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-4,text,true,,53,0,5,5,null,0,0,0
+1782025318086,78,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-3,text,true,,53,0,5,5,null,0,0,0
+1782025318127,88,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-1,text,true,,51,0,5,5,null,0,0,0
+1782025318165,76,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-3,text,true,,588,0,5,5,null,0,0,0
+1782025318160,82,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-5,text,true,,53,0,5,5,null,0,0,0
+1782025318241,2,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-3,text,true,,118,0,5,5,null,0,0,0
+1782025318164,80,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-2,text,true,,589,0,5,5,null,0,0,0
+1782025318164,82,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-4,text,true,,588,0,5,5,null,0,0,0
+1782025318244,17,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-2,text,true,,117,0,5,5,null,0,0,0
+1782025318215,91,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-1,text,true,,601,0,5,5,null,0,0,0
+1782025318246,67,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-4,text,true,,117,0,5,5,null,0,0,0
+1782025318243,75,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-3,text,true,,475,0,5,5,null,0,0,0
+1782025318242,88,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-5,text,true,,590,0,5,5,null,0,0,0
+1782025318261,75,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-2,text,true,,1776,0,5,5,null,0,0,0
+1782025318306,65,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-1,text,true,,118,0,5,5,null,0,0,0
+1782025318330,54,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-5,text,true,,117,0,5,5,null,0,0,0
+1782025318313,76,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-4,text,true,,475,0,5,5,null,0,0,0
+1782025318318,74,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-3,text,true,,114,0,5,5,null,0,0,0
+1782025318337,75,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-2,text,true,,151,0,5,5,null,0,0,0
+1782025318371,81,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-1,text,true,,1778,0,5,5,null,0,0,0
+1782025318385,76,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-5,text,true,,473,0,5,5,null,0,0,0
+1782025318389,73,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-4,text,true,,113,0,5,5,null,0,0,0
+1782025318392,84,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-3,text,true,,52,0,5,5,null,0,0,0
+1782025318412,90,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-2,text,true,,53,0,5,5,null,0,0,0
+1782025318452,80,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-1,text,true,,150,0,5,5,null,0,0,0
+1782025318461,78,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-5,text,true,,113,0,5,5,null,0,0,0
+1782025318462,85,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-4,text,true,,56,0,5,5,null,0,0,0
+1782025318476,85,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-3,text,true,,587,0,5,5,null,0,0,0
+1782025318502,101,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-2,text,true,,591,0,5,5,null,0,0,0
+1782025318532,98,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-1,text,true,,53,0,5,5,null,0,0,0
+1782025318539,91,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-5,text,true,,53,0,5,5,null,0,0,0
+1782025318547,84,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-4,text,true,,599,0,5,5,null,0,0,0
+1782025318562,76,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-3,text,true,,118,0,5,5,null,0,0,0
+1782025318603,36,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-2,text,true,,117,0,5,5,null,0,0,0
+1782025318631,18,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-4,text,true,,117,0,5,5,null,0,0,0
+1782025318638,82,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-3,text,true,,1780,0,5,5,null,0,0,0
+1782025318630,91,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-1,text,true,,601,0,5,5,null,0,0,0
+1782025318639,83,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-2,text,true,,1780,0,5,5,null,0,0,0
+1782025318630,92,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-5,text,true,,589,0,5,5,null,0,0,0
+1782025318649,81,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-4,text,true,,1785,0,5,5,null,0,0,0
+1782025318721,15,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-1,text,true,,117,0,5,5,null,0,0,0
+1782025318722,41,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-5,text,true,,117,0,5,5,null,0,0,0
+1782025318720,78,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-3,text,true,,153,0,5,5,null,0,0,0
+1782025318722,77,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-2,text,true,,150,0,5,5,null,0,0,0
+1782025318730,93,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-4,text,true,,149,0,5,5,null,0,0,0
+1782025318736,91,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-1,text,true,,473,0,5,5,null,0,0,0
+1782025318763,80,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-5,text,true,,473,0,5,5,null,0,0,0
+1782025318799,86,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-3,text,true,,58,0,5,5,null,0,0,0
+1782025318799,86,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-2,text,true,,53,0,5,5,null,0,0,0
+1782025318827,75,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-1,text,true,,150,0,5,5,null,0,0,0
+1782025318823,83,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-4,text,true,,53,0,5,5,null,0,0,0
+1782025318843,77,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-5,text,true,,110,0,5,5,null,0,0,0
+1782025318885,87,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-2,text,true,,591,0,5,5,null,0,0,0
+1782025318885,87,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-3,text,true,,591,0,5,5,null,0,0,0
+1782025318902,90,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-1,text,true,,51,0,5,5,null,0,0,0
+1782025318906,87,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-4,text,true,,602,0,5,5,null,0,0,0
+1782025318972,29,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-2,text,true,,117,0,5,5,null,0,0,0
+1782025318993,15,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-4,text,true,,117,0,5,5,null,0,0,0
+1782025318921,90,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-5,text,true,,55,0,5,5,null,0,0,0
+1782025318972,52,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-3,text,true,,117,0,5,5,null,0,0,0
+1782025319001,76,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-2,text,true,,473,0,5,5,null,0,0,0
+1782025319008,72,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-4,text,true,,475,0,5,5,null,0,0,0
+1782025318993,91,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-1,text,true,,601,0,5,5,null,0,0,0
+1782025319011,92,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-5,text,true,,600,0,5,5,null,0,0,0
+1782025319025,82,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-3,text,true,,1778,0,5,5,null,0,0,0
+1782025319085,30,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-1,text,true,,118,0,5,5,null,0,0,0
+1782025319103,28,MongoDB Q1 - Read Customer by ID,200,OK,MongoDB Benchmark 1-5,text,true,,117,0,5,5,null,0,0,0
+1782025319077,77,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-2,text,true,,65,0,5,5,null,0,0,0
+1782025319080,74,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-4,text,true,,65,0,5,5,null,0,0,0
+1782025319107,77,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-3,text,true,,150,0,5,5,null,0,0,0
+1782025319115,81,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-1,text,true,,1786,0,5,5,null,0,0,0
+1782025319131,83,MongoDB Q2 - Read Customer Orders Detail,200,OK,MongoDB Benchmark 1-5,text,true,,471,0,5,5,null,0,0,0
+1782025319154,89,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-2,text,true,,53,0,5,5,null,0,0,0
+1782025319154,89,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-4,text,true,,54,0,5,5,null,0,0,0
+1782025319196,76,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-1,text,true,,65,0,5,5,null,0,0,0
+1782025319184,89,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-3,text,true,,55,0,5,5,null,0,0,0
+1782025319214,78,MongoDB Q3 - Aggregation: Orders by Status,200,OK,MongoDB Benchmark 1-5,text,true,,111,0,5,5,null,0,0,0
+1782025319243,87,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-2,text,true,,600,0,5,5,null,0,0,0
+1782025319243,87,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-4,text,true,,599,0,5,5,null,0,0,0
+1782025319273,85,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-1,text,true,,56,0,3,3,null,0,0,0
+1782025319273,86,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-3,text,true,,602,0,3,3,null,0,0,0
+1782025319292,82,MongoDB Q4 - Range Query: Customers by Region,200,OK,MongoDB Benchmark 1-5,text,true,,54,0,2,2,null,0,0,0
+1782025319358,63,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-1,text,true,,589,0,2,2,null,0,0,0
+1782025319374,61,MongoDB Q5 - Revenue Aggregation,200,OK,MongoDB Benchmark 1-5,text,true,,590,0,1,1,null,0,0,0
+1782025319438,527,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-1,text,true,,24,0,3,3,null,0,0,0
+1782025319837,133,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-3,text,true,,117,0,3,3,null,0,0,0
+1782025319642,328,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-2,text,true,,117,0,3,3,null,0,0,0
+1782025319970,46,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-3,text,true,,167,0,3,3,null,0,0,0
+1782025319965,51,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-1,text,true,,171,0,3,3,null,0,0,0
+1782025319970,46,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-2,text,true,,164,0,3,3,null,0,0,0
+1782025320040,10,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-4,text,true,,24,0,4,4,null,0,0,0
+1782025320016,37,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-2,text,true,,52,0,4,4,null,0,0,0
+1782025320016,38,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-1,text,true,,54,0,4,4,null,0,0,0
+1782025320017,37,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-3,text,true,,53,0,4,4,null,0,0,0
+1782025320050,7,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-4,text,true,,168,0,4,4,null,0,0,0
+1782025320057,2,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-4,text,true,,51,0,4,4,null,0,0,0
+1782025320054,27,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-2,text,true,,63,0,4,4,null,0,0,0
+1782025320054,28,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-3,text,true,,64,0,4,4,null,0,0,0
+1782025320054,29,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-1,text,true,,64,0,4,4,null,0,0,0
+1782025320059,24,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-4,text,true,,67,0,4,4,null,0,0,0
+1782025320083,64,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-4,text,true,,50,0,4,4,null,0,0,0
+1782025320082,65,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-3,text,true,,51,0,4,4,null,0,0,0
+1782025320081,67,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-2,text,true,,188,0,4,4,null,0,0,0
+1782025320083,65,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-1,text,true,,182,0,4,4,null,0,0,0
+1782025320147,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-3,text,true,,24,0,4,4,null,0,0,0
+1782025320147,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-4,text,true,,25,0,4,4,null,0,0,0
+1782025320148,3,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-1,text,true,,118,0,4,4,null,0,0,0
+1782025320148,3,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-2,text,true,,117,0,4,4,null,0,0,0
+1782025320151,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-2,text,true,,53,0,4,4,null,0,0,0
+1782025320151,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-1,text,true,,53,0,4,4,null,0,0,0
+1782025320149,4,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-3,text,true,,167,0,4,4,null,0,0,0
+1782025320149,6,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-4,text,true,,168,0,4,4,null,0,0,0
+1782025320153,2,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-1,text,true,,52,0,4,4,null,0,0,0
+1782025320153,2,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-2,text,true,,52,0,4,4,null,0,0,0
+1782025320155,2,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-4,text,true,,53,0,4,4,null,0,0,0
+1782025320155,3,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-2,text,true,,66,0,4,4,null,0,0,0
+1782025320153,5,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-3,text,true,,53,0,4,4,null,0,0,0
+1782025320155,3,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-1,text,true,,67,0,4,4,null,0,0,0
+1782025320157,4,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-4,text,true,,66,0,4,4,null,0,0,0
+1782025320158,3,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-3,text,true,,67,0,4,4,null,0,0,0
+1782025320158,4,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-1,text,true,,191,0,4,4,null,0,0,0
+1782025320162,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-1,text,true,,24,0,4,4,null,0,0,0
+1782025320158,7,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-2,text,true,,189,0,4,4,null,0,0,0
+1782025320161,4,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-4,text,true,,189,0,4,4,null,0,0,0
+1782025320161,5,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-3,text,true,,188,0,4,4,null,0,0,0
+1782025320165,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-4,text,true,,24,0,4,4,null,0,0,0
+1782025320165,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-2,text,true,,117,0,4,4,null,0,0,0
+1782025320164,3,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-1,text,true,,167,0,4,4,null,0,0,0
+1782025320166,3,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-3,text,true,,118,0,4,4,null,0,0,0
+1782025320167,3,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-2,text,true,,167,0,4,4,null,0,0,0
+1782025320168,3,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-1,text,true,,53,0,4,4,null,0,0,0
+1782025320166,6,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-4,text,true,,168,0,4,4,null,0,0,0
+1782025320169,3,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-3,text,true,,52,0,4,4,null,0,0,0
+1782025320171,2,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-1,text,true,,63,0,4,4,null,0,0,0
+1782025320170,3,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-2,text,true,,52,0,4,4,null,0,0,0
+1782025320173,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-1,text,true,,50,0,4,4,null,0,0,0
+1782025320172,3,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-4,text,true,,54,0,4,4,null,0,0,0
+1782025320172,3,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-3,text,true,,53,0,4,4,null,0,0,0
+1782025320173,2,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-2,text,true,,63,0,4,4,null,0,0,0
+1782025320175,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-4,text,true,,64,0,4,4,null,0,0,0
+1782025320174,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-1,text,true,,116,0,4,4,null,0,0,0
+1782025320175,2,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-2,text,true,,51,0,4,4,null,0,0,0
+1782025320175,5,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-3,text,true,,67,0,4,4,null,0,0,0
+1782025320177,4,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-2,text,true,,118,0,4,4,null,0,0,0
+1782025320176,5,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-1,text,true,,170,0,4,4,null,0,0,0
+1782025320176,5,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-4,text,true,,189,0,4,4,null,0,0,0
+1782025320181,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-2,text,true,,52,0,4,4,null,0,0,0
+1782025320181,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-4,text,true,,118,0,4,4,null,0,0,0
+1782025320181,3,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-1,text,true,,53,0,4,4,null,0,0,0
+1782025320180,4,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-3,text,true,,191,0,4,4,null,0,0,0
+1782025320183,2,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-2,text,true,,54,0,4,4,null,0,0,0
+1782025320184,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-3,text,true,,117,0,4,4,null,0,0,0
+1782025320183,4,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-4,text,true,,164,0,4,4,null,0,0,0
+1782025320184,4,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-1,text,true,,65,0,4,4,null,0,0,0
+1782025320187,2,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-4,text,true,,51,0,4,4,null,0,0,0
+1782025320186,5,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-3,text,true,,165,0,4,4,null,0,0,0
+1782025320185,7,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-2,text,true,,66,0,4,4,null,0,0,0
+1782025320188,5,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-1,text,true,,188,0,4,4,null,0,0,0
+1782025320192,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-2,text,true,,51,0,4,4,null,0,0,0
+1782025320191,3,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-3,text,true,,52,0,4,4,null,0,0,0
+1782025320189,5,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-4,text,true,,66,0,4,4,null,0,0,0
+1782025320193,3,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-1,text,true,,24,0,4,4,null,0,0,0
+1782025320194,2,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-3,text,true,,63,0,4,4,null,0,0,0
+1782025320194,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-2,text,true,,117,0,4,4,null,0,0,0
+1782025320194,3,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-4,text,true,,189,0,4,4,null,0,0,0
+1782025320197,5,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-4,text,true,,117,0,4,4,null,0,0,0
+1782025320196,8,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-2,text,true,,167,0,4,4,null,0,0,0
+1782025320196,8,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-3,text,true,,187,0,4,4,null,0,0,0
+1782025320196,8,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-1,text,true,,170,0,4,4,null,0,0,0
+1782025320202,3,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-4,text,true,,51,0,4,4,null,0,0,0
+1782025320204,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-2,text,true,,51,0,4,4,null,0,0,0
+1782025320204,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-3,text,true,,117,0,4,4,null,0,0,0
+1782025320204,2,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-1,text,true,,54,0,4,4,null,0,0,0
+1782025320205,2,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-4,text,true,,52,0,4,4,null,0,0,0
+1782025320206,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-3,text,true,,52,0,4,4,null,0,0,0
+1782025320206,2,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-1,text,true,,64,0,4,4,null,0,0,0
+1782025320206,3,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-2,text,true,,66,0,4,4,null,0,0,0
+1782025320208,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-3,text,true,,52,0,4,4,null,0,0,0
+1782025320207,3,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-4,text,true,,66,0,4,4,null,0,0,0
+1782025320209,2,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-3,text,true,,63,0,4,4,null,0,0,0
+1782025320209,2,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-2,text,true,,50,0,4,4,null,0,0,0
+1782025320211,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-2,text,true,,116,0,4,4,null,0,0,0
+1782025320208,5,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-1,text,true,,190,0,4,4,null,0,0,0
+1782025320213,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-2,text,true,,52,0,4,4,null,0,0,0
+1782025320211,4,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-3,text,true,,186,0,4,4,null,0,0,0
+1782025320214,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-1,text,true,,117,0,4,4,null,0,0,0
+1782025320210,7,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-4,text,true,,189,0,4,4,null,0,0,0
+1782025320216,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-1,text,true,,53,0,4,4,null,0,0,0
+1782025320215,3,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-3,text,true,,118,0,4,4,null,0,0,0
+1782025320215,3,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-2,text,true,,54,0,4,4,null,0,0,0
+1782025320218,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-3,text,true,,53,0,4,4,null,0,0,0
+1782025320217,3,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-4,text,true,,117,0,4,4,null,0,0,0
+1782025320218,2,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-2,text,true,,63,0,4,4,null,0,0,0
+1782025320218,3,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-1,text,true,,54,0,4,4,null,0,0,0
+1782025320219,3,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-3,text,true,,52,0,4,4,null,0,0,0
+1782025320220,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-4,text,true,,52,0,4,4,null,0,0,0
+1782025320220,2,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-2,text,true,,51,0,4,4,null,0,0,0
+1782025320222,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-3,text,true,,64,0,4,4,null,0,0,0
+1782025320222,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-2,text,true,,117,0,4,4,null,0,0,0
+1782025320222,3,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-4,text,true,,54,0,4,4,null,0,0,0
+1782025320223,2,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-3,text,true,,50,0,4,4,null,0,0,0
+1782025320221,4,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-1,text,true,,66,0,4,4,null,0,0,0
+1782025320226,2,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-1,text,true,,50,0,4,4,null,0,0,0
+1782025320226,3,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-3,text,true,,117,0,4,4,null,0,0,0
+1782025320225,5,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-4,text,true,,67,0,4,4,null,0,0,0
+1782025320224,7,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-2,text,true,,170,0,4,4,null,0,0,0
+1782025320229,3,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-1,text,true,,117,0,4,4,null,0,0,0
+1782025320229,5,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-3,text,true,,165,0,4,4,null,0,0,0
+1782025320231,4,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-2,text,true,,53,0,4,4,null,0,0,0
+1782025320230,7,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-4,text,true,,186,0,4,4,null,0,0,0
+1782025320234,4,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-3,text,true,,53,0,4,4,null,0,0,0
+1782025320232,7,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-1,text,true,,165,0,4,4,null,0,0,0
+1782025320237,3,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-4,text,true,,24,0,4,4,null,0,0,0
+1782025320238,2,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-3,text,true,,64,0,5,5,null,0,0,0
+1782025320235,6,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-2,text,true,,67,0,5,5,null,0,0,0
+1782025320240,3,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-5,text,true,,117,0,5,5,null,0,0,0
+1782025320239,6,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-1,text,true,,54,0,5,5,null,0,0,0
+1782025320240,7,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-3,text,true,,187,0,5,5,null,0,0,0
+1782025320240,7,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-4,text,true,,166,0,5,5,null,0,0,0
+1782025320241,7,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-2,text,true,,187,0,5,5,null,0,0,0
+1782025320243,7,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-5,text,true,,169,0,5,5,null,0,0,0
+1782025320245,6,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-1,text,true,,63,0,5,5,null,0,0,0
+1782025320247,4,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-4,text,true,,51,0,5,5,null,0,0,0
+1782025320247,4,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-3,text,true,,117,0,5,5,null,0,0,0
+1782025320248,6,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-2,text,true,,118,0,5,5,null,0,0,0
+1782025320250,5,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-5,text,true,,53,0,5,5,null,0,0,0
+1782025320254,3,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-2,text,true,,53,0,5,5,null,0,0,0
+1782025320251,6,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-4,text,true,,66,0,5,5,null,0,0,0
+1782025320251,7,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-3,text,true,,167,0,5,5,null,0,0,0
+1782025320251,8,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-1,text,true,,188,0,5,5,null,0,0,0
+1782025320255,7,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-5,text,true,,63,0,5,5,null,0,0,0
+1782025320259,4,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-1,text,true,,118,0,5,5,null,0,0,0
+1782025320257,6,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-2,text,true,,53,0,5,5,null,0,0,0
+1782025320258,6,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-3,text,true,,54,0,5,5,null,0,0,0
+1782025320257,8,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-4,text,true,,190,0,5,5,null,0,0,0
+1782025320262,3,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-5,text,true,,50,0,5,5,null,0,0,0
+1782025320263,3,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-2,text,true,,66,0,5,5,null,0,0,0
+1782025320264,3,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-3,text,true,,64,0,5,5,null,0,0,0
+1782025320263,4,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-1,text,true,,170,0,5,5,null,0,0,0
+1782025320265,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-4,text,true,,25,0,5,5,null,0,0,0
+1782025320267,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-1,text,true,,51,0,5,5,null,0,0,0
+1782025320265,3,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-5,text,true,,117,0,5,5,null,0,0,0
+1782025320267,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-3,text,true,,49,0,5,5,null,0,0,0
+1782025320267,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-4,text,true,,52,0,5,5,null,0,0,0
+1782025320268,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-5,text,true,,53,0,5,5,null,0,0,0
+1782025320268,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-3,text,true,,117,0,5,5,null,0,0,0
+1782025320268,3,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-1,text,true,,65,0,5,5,null,0,0,0
+1782025320266,5,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-2,text,true,,184,0,5,5,null,0,0,0
+1782025320271,3,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-2,text,true,,118,0,5,5,null,0,0,0
+1782025320270,4,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-5,text,true,,53,0,5,5,null,0,0,0
+1782025320269,5,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-4,text,true,,53,0,5,5,null,0,0,0
+1782025320270,4,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-3,text,true,,167,0,5,5,null,0,0,0
+1782025320275,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-3,text,true,,51,0,5,5,null,0,0,0
+1782025320271,5,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-1,text,true,,183,0,5,5,null,0,0,0
+1782025320274,3,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-4,text,true,,66,0,5,5,null,0,0,0
+1782025320274,4,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-5,text,true,,67,0,5,5,null,0,0,0
+1782025320274,4,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-2,text,true,,167,0,5,5,null,0,0,0
+1782025320276,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-1,text,true,,25,0,5,5,null,0,0,0
+1782025320277,2,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-4,text,true,,50,0,5,5,null,0,0,0
+1782025320276,4,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-3,text,true,,67,0,5,5,null,0,0,0
+1782025320278,4,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-1,text,true,,168,0,5,5,null,0,0,0
+1782025320278,4,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-2,text,true,,55,0,5,5,null,0,0,0
+1782025320279,3,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-4,text,true,,117,0,5,5,null,0,0,0
+1782025320278,5,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-5,text,true,,190,0,5,5,null,0,0,0
+1782025320280,3,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-3,text,true,,191,0,5,5,null,0,0,0
+1782025320282,3,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-1,text,true,,53,0,5,5,null,0,0,0
+1782025320282,3,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-2,text,true,,67,0,5,5,null,0,0,0
+1782025320283,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-3,text,true,,117,0,5,5,null,0,0,0
+1782025320283,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-5,text,true,,24,0,5,5,null,0,0,0
+1782025320283,4,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-4,text,true,,164,0,5,5,null,0,0,0
+1782025320285,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-5,text,true,,52,0,5,5,null,0,0,0
+1782025320285,2,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-1,text,true,,64,0,5,5,null,0,0,0
+1782025320287,6,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-1,text,true,,50,0,5,5,null,0,0,0
+1782025320287,6,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-5,text,true,,53,0,5,5,null,0,0,0
+1782025320287,6,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-4,text,true,,54,0,5,5,null,0,0,0
+1782025320285,8,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-2,text,true,,191,0,5,5,null,0,0,0
+1782025320285,10,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-3,text,true,,168,0,5,5,null,0,0,0
+1782025320293,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-1,text,true,,117,0,5,5,null,0,0,0
+1782025320294,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-2,text,true,,117,0,5,5,null,0,0,0
+1782025320293,3,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-5,text,true,,66,0,5,5,null,0,0,0
+1782025320293,4,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-4,text,true,,67,0,5,5,null,0,0,0
+1782025320295,2,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-3,text,true,,52,0,5,5,null,0,0,0
+1782025320296,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-2,text,true,,52,0,5,5,null,0,0,0
+1782025320295,3,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-1,text,true,,167,0,5,5,null,0,0,0
+1782025320297,2,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-4,text,true,,50,0,5,5,null,0,0,0
+1782025320298,2,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-2,text,true,,53,0,5,5,null,0,0,0
+1782025320298,2,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-1,text,true,,53,0,5,5,null,0,0,0
+1782025320298,3,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-3,text,true,,66,0,5,5,null,0,0,0
+1782025320296,5,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-5,text,true,,184,0,5,5,null,0,0,0
+1782025320299,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-4,text,true,,117,0,5,5,null,0,0,0
+1782025320300,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-2,text,true,,63,0,5,5,null,0,0,0
+1782025320301,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-1,text,true,,63,0,5,5,null,0,0,0
+1782025320301,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-5,text,true,,117,0,5,5,null,0,0,0
+1782025320302,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-2,text,true,,51,0,5,5,null,0,0,0
+1782025320301,2,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-3,text,true,,188,0,4,4,null,0,0,0
+1782025320301,3,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-4,text,true,,167,0,3,3,null,0,0,0
+1782025320302,3,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-1,text,true,,186,0,3,3,null,0,0,0
+1782025320304,2,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-4,text,true,,51,0,3,3,null,0,0,0
+1782025320303,3,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-5,text,true,,168,0,2,2,null,0,0,0
+1782025320306,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-4,text,true,,63,0,2,2,null,0,0,0
+1782025320306,2,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-5,text,true,,53,0,2,2,null,0,0,0
+1782025320307,3,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-4,text,true,,189,0,2,2,null,0,0,0
+1782025320308,3,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-5,text,true,,67,0,1,1,null,0,0,0
+1782025320311,4,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-5,text,true,,188,0,1,1,null,0,0,0
+1782025320315,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-5,text,true,,117,0,1,1,null,0,0,0
+1782025320317,3,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-5,text,true,,168,0,1,1,null,0,0,0
+1782025320320,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-5,text,true,,51,0,1,1,null,0,0,0
+1782025320321,2,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-5,text,true,,64,0,1,1,null,0,0,0
+1782025320323,2,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-5,text,true,,187,0,1,1,null,0,0,0
+1782025320325,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-5,text,true,,117,0,1,1,null,0,0,0
+1782025320327,3,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-5,text,true,,166,0,1,1,null,0,0,0
+1782025320330,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-5,text,true,,51,0,1,1,null,0,0,0
+1782025320331,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-5,text,true,,63,0,1,1,null,0,0,0
+1782025320332,12,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-5,text,true,,184,0,1,1,null,0,0,0
+1782025320344,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-5,text,true,,117,0,1,1,null,0,0,0
+1782025320346,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-5,text,true,,53,0,1,1,null,0,0,0
+1782025320347,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-5,text,true,,51,0,1,1,null,0,0,0
+1782025320348,2,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-5,text,true,,66,0,1,1,null,0,0,0
+1782025320350,1,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-5,text,true,,50,0,1,1,null,0,0,0
+1782025320351,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-5,text,true,,118,0,1,1,null,0,0,0
+1782025320352,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-5,text,true,,167,0,1,1,null,0,0,0
+1782025320354,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-5,text,true,,52,0,1,1,null,0,0,0
+1782025320355,2,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-5,text,true,,64,0,1,1,null,0,0,0
+1782025320357,2,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-5,text,true,,187,0,1,1,null,0,0,0
+1782025320359,1,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-5,text,true,,24,0,1,1,null,0,0,0
+1782025320360,2,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-5,text,true,,167,0,1,1,null,0,0,0
+1782025320362,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-5,text,true,,51,0,1,1,null,0,0,0
+1782025320363,1,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-5,text,true,,65,0,1,1,null,0,0,0
+1782025320364,2,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-5,text,true,,185,0,1,1,null,0,0,0
+1782025320366,2,Cassandra Q1 - Read Customer by ID,200,OK,Cassandra Benchmark 2-5,text,true,,118,0,1,1,null,0,0,0
+1782025320368,1,Cassandra Q2 - Read Customer Orders Detail,200,OK,Cassandra Benchmark 2-5,text,true,,52,0,1,1,null,0,0,0
+1782025320369,1,Cassandra Q3 - Count Customer Orders,200,OK,Cassandra Benchmark 2-5,text,true,,52,0,1,1,null,0,0,0
+1782025320371,0,Cassandra Q4 - Filter by Return Flag,200,OK,Cassandra Benchmark 2-5,text,true,,63,0,1,1,null,0,0,0
+1782025320372,0,Cassandra Q5 - Revenue Aggregation,200,OK,Cassandra Benchmark 2-5,text,true,,50,0,1,1,null,0,0,0
+1782025320579,84,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-2,text,true,,77,0,2,2,null,0,0,0
+1782025320373,290,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-1,text,true,,79,0,2,2,null,0,0,0
+1782025320664,30,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-1,text,true,,55,0,2,2,null,0,0,0
+1782025320664,31,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-2,text,true,,61,0,2,2,null,0,0,0
+1782025320695,19,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-2,text,true,,30,0,2,2,null,0,0,0
+1782025320694,21,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-1,text,true,,152,0,2,2,null,0,0,0
+1782025320714,17,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-2,text,true,,57,0,2,2,null,0,0,0
+1782025320715,16,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-1,text,true,,57,0,2,2,null,0,0,0
+1782025320779,4,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-3,text,true,,79,0,3,3,null,0,0,0
+1782025320784,1,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-3,text,true,,54,0,3,3,null,0,0,0
+1782025320785,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-3,text,true,,111,0,3,3,null,0,0,0
+1782025320787,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-3,text,true,,56,0,3,3,null,0,0,0
+1782025320732,72,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-2,text,true,,312,0,3,3,null,0,0,0
+1782025320732,72,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-1,text,true,,312,0,3,3,null,0,0,0
+1782025320789,16,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-3,text,true,,314,0,3,3,null,0,0,0
+1782025320804,3,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-2,text,true,,81,0,3,3,null,0,0,0
+1782025320805,2,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-3,text,true,,83,0,3,3,null,0,0,0
+1782025320804,3,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-1,text,true,,81,0,3,3,null,0,0,0
+1782025320807,14,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-1,text,true,,54,0,3,3,null,0,0,0
+1782025320822,0,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-1,text,true,,30,0,3,3,null,0,0,0
+1782025320822,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-1,text,true,,52,0,3,3,null,0,0,0
+1782025320807,32,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-2,text,true,,61,0,3,3,null,0,0,0
+1782025320839,0,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-2,text,true,,30,0,3,3,null,0,0,0
+1782025320840,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-2,text,true,,52,0,3,3,null,0,0,0
+1782025320807,45,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-3,text,true,,62,0,3,3,null,0,0,0
+1782025320852,1,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-3,text,true,,30,0,3,3,null,0,0,0
+1782025320824,29,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-1,text,true,,312,0,3,3,null,0,0,0
+1782025320853,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-3,text,true,,56,0,3,3,null,0,0,0
+1782025320853,2,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-1,text,true,,83,0,3,3,null,0,0,0
+1782025320841,14,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-2,text,true,,313,0,3,3,null,0,0,0
+1782025320855,18,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-2,text,true,,78,0,3,3,null,0,0,0
+1782025320855,27,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-1,text,true,,61,0,3,3,null,0,0,0
+1782025320882,1,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-1,text,true,,31,0,3,3,null,0,0,0
+1782025320855,28,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-3,text,true,,312,0,3,3,null,0,0,0
+1782025320873,10,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-2,text,true,,61,0,3,3,null,0,0,0
+1782025320883,3,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-1,text,true,,55,0,3,3,null,0,0,0
+1782025320883,3,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-2,text,true,,71,0,3,3,null,0,0,0
+1782025320883,3,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-3,text,true,,82,0,3,3,null,0,0,0
+1782025320886,20,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-3,text,true,,55,0,3,3,null,0,0,0
+1782025320886,20,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-2,text,true,,54,0,3,3,null,0,0,0
+1782025320886,20,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-1,text,true,,313,0,3,3,null,0,0,0
+1782025320906,1,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-3,text,true,,30,0,3,3,null,0,0,0
+1782025320907,15,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-3,text,true,,54,0,3,3,null,0,0,0
+1782025320906,16,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-1,text,true,,84,0,3,3,null,0,0,0
+1782025320906,16,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-2,text,true,,311,0,3,3,null,0,0,0
+1782025320922,19,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-2,text,true,,79,0,3,3,null,0,0,0
+1782025320922,26,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-1,text,true,,61,0,3,3,null,0,0,0
+1782025320948,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-1,text,true,,112,0,3,3,null,0,0,0
+1782025320950,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-1,text,true,,59,0,3,3,null,0,0,0
+1782025320922,44,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-3,text,true,,313,0,3,3,null,0,0,0
+1782025320941,25,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-2,text,true,,62,0,3,3,null,0,0,0
+1782025320951,15,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-1,text,true,,312,0,3,3,null,0,0,0
+1782025320966,5,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-1,text,true,,83,0,3,3,null,0,0,0
+1782025320966,5,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-3,text,true,,79,0,3,3,null,0,0,0
+1782025320966,5,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-2,text,true,,112,0,3,3,null,0,0,0
+1782025320971,2,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-1,text,true,,55,0,3,3,null,0,0,0
+1782025320971,2,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-3,text,true,,55,0,3,3,null,0,0,0
+1782025320974,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-3,text,true,,30,0,4,4,null,0,0,0
+1782025320971,5,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-2,text,true,,52,0,4,4,null,0,0,0
+1782025320975,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-4,text,true,,85,0,4,4,null,0,0,0
+1782025320973,3,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-1,text,true,,150,0,4,4,null,0,0,0
+1782025320976,17,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-1,text,true,,54,0,4,4,null,0,0,0
+1782025320976,17,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-3,text,true,,55,0,4,4,null,0,0,0
+1782025320976,44,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-4,text,true,,62,0,4,4,null,0,0,0
+1782025321020,1,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-4,text,true,,31,0,4,4,null,0,0,0
+1782025320976,45,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-2,text,true,,311,0,4,4,null,0,0,0
+1782025321021,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-4,text,true,,52,0,4,4,null,0,0,0
+1782025321021,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-2,text,true,,78,0,4,4,null,0,0,0
+1782025320993,29,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-3,text,true,,312,0,4,4,null,0,0,0
+1782025320993,30,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-1,text,true,,311,0,4,4,null,0,0,0
+1782025321022,18,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-3,text,true,,86,0,4,4,null,0,0,0
+1782025321023,23,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-1,text,true,,76,0,4,4,null,0,0,0
+1782025321046,1,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-1,text,true,,54,0,4,4,null,0,0,0
+1782025321047,1,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-1,text,true,,30,0,4,4,null,0,0,0
+1782025321048,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-1,text,true,,59,0,4,4,null,0,0,0
+1782025321022,27,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-4,text,true,,314,0,4,4,null,0,0,0
+1782025321040,9,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-3,text,true,,61,0,4,4,null,0,0,0
+1782025321049,16,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-4,text,true,,80,0,4,4,null,0,0,0
+1782025321049,16,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-3,text,true,,110,0,4,4,null,0,0,0
+1782025321022,43,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-2,text,true,,61,0,4,4,null,0,0,0
+1782025321065,8,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-3,text,true,,59,0,4,4,null,0,0,0
+1782025321065,8,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-2,text,true,,112,0,4,4,null,0,0,0
+1782025321073,14,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-2,text,true,,52,0,4,4,null,0,0,0
+1782025321049,57,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-1,text,true,,315,0,4,4,null,0,0,0
+1782025321106,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-1,text,true,,91,0,4,4,null,0,0,0
+1782025321065,42,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-4,text,true,,61,0,4,4,null,0,0,0
+1782025321073,34,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-3,text,true,,311,0,4,4,null,0,0,0
+1782025321087,25,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-2,text,true,,313,0,4,4,null,0,0,0
+1782025321112,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-2,text,true,,83,0,4,4,null,0,0,0
+1782025321107,6,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-3,text,true,,80,0,4,4,null,0,0,0
+1782025321107,6,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-4,text,true,,109,0,4,4,null,0,0,0
+1782025321107,6,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-1,text,true,,61,0,4,4,null,0,0,0
+1782025321113,2,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-3,text,true,,54,0,4,4,null,0,0,0
+1782025321115,8,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-3,text,true,,30,0,4,4,null,0,0,0
+1782025321113,10,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-1,text,true,,111,0,4,4,null,0,0,0
+1782025321113,10,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-4,text,true,,52,0,4,4,null,0,0,0
+1782025321113,11,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-2,text,true,,61,0,4,4,null,0,0,0
+1782025321123,15,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-3,text,true,,54,0,4,4,null,0,0,0
+1782025321123,15,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-1,text,true,,54,0,4,4,null,0,0,0
+1782025321124,14,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-2,text,true,,107,0,4,4,null,0,0,0
+1782025321138,30,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-2,text,true,,54,0,4,4,null,0,0,0
+1782025321123,59,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-4,text,true,,310,0,5,5,null,0,0,0
+1782025321176,6,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-5,text,true,,77,0,5,5,null,0,0,0
+1782025321182,5,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-4,text,true,,81,0,5,5,null,0,0,0
+1782025321138,57,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-1,text,true,,313,0,5,5,null,0,0,0
+1782025321195,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-1,text,true,,88,0,5,5,null,0,0,0
+1782025321168,34,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-2,text,true,,315,0,5,5,null,0,0,0
+1782025321182,20,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-5,text,true,,61,0,5,5,null,0,0,0
+1782025321202,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-2,text,true,,78,0,5,5,null,0,0,0
+1782025321138,70,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-3,text,true,,313,0,5,5,null,0,0,0
+1782025321202,7,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-5,text,true,,31,0,5,5,null,0,0,0
+1782025321209,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-5,text,true,,61,0,5,5,null,0,0,0
+1782025321208,2,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-3,text,true,,78,0,5,5,null,0,0,0
+1782025321210,17,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-3,text,true,,55,0,5,5,null,0,0,0
+1782025321187,40,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-4,text,true,,61,0,5,5,null,0,0,0
+1782025321227,1,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-3,text,true,,31,0,5,5,null,0,0,0
+1782025321227,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-4,text,true,,31,0,5,5,null,0,0,0
+1782025321196,34,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-1,text,true,,60,0,5,5,null,0,0,0
+1782025321228,3,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-3,text,true,,54,0,5,5,null,0,0,0
+1782025321230,3,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-1,text,true,,113,0,5,5,null,0,0,0
+1782025321229,4,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-4,text,true,,54,0,5,5,null,0,0,0
+1782025321233,32,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-1,text,true,,55,0,5,5,null,0,0,0
+1782025321210,69,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-5,text,true,,313,0,5,5,null,0,0,0
+1782025321202,78,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-2,text,true,,62,0,5,5,null,0,0,0
+1782025321279,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-5,text,true,,85,0,5,5,null,0,0,0
+1782025321280,3,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-5,text,true,,54,0,5,5,null,0,0,0
+1782025321280,3,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-2,text,true,,152,0,5,5,null,0,0,0
+1782025321233,52,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-4,text,true,,311,0,5,5,null,0,0,0
+1782025321283,3,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-5,text,true,,111,0,5,5,null,0,0,0
+1782025321285,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-4,text,true,,81,0,5,5,null,0,0,0
+1782025321231,56,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-3,text,true,,313,0,5,5,null,0,0,0
+1782025321283,5,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-2,text,true,,56,0,5,5,null,0,0,0
+1782025321286,2,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-4,text,true,,53,0,5,5,null,0,0,0
+1782025321286,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-5,text,true,,54,0,5,5,null,0,0,0
+1782025321287,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-3,text,true,,79,0,5,5,null,0,0,0
+1782025321265,24,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-1,text,true,,315,0,5,5,null,0,0,0
+1782025321289,36,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-1,text,true,,79,0,5,5,null,0,0,0
+1782025321288,37,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-4,text,true,,153,0,5,5,null,0,0,0
+1782025321289,36,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-3,text,true,,61,0,5,5,null,0,0,0
+1782025321325,1,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-1,text,true,,54,0,5,5,null,0,0,0
+1782025321326,4,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-1,text,true,,152,0,5,5,null,0,0,0
+1782025321325,5,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-4,text,true,,59,0,5,5,null,0,0,0
+1782025321325,5,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-3,text,true,,150,0,5,5,null,0,0,0
+1782025321330,14,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-1,text,true,,59,0,5,5,null,0,0,0
+1782025321288,56,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-5,text,true,,312,0,5,5,null,0,0,0
+1782025321330,14,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-3,text,true,,55,0,5,5,null,0,0,0
+1782025321288,56,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-2,text,true,,313,0,5,5,null,0,0,0
+1782025321344,23,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-2,text,true,,81,0,5,5,null,0,0,0
+1782025321330,37,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-4,text,true,,314,0,5,5,null,0,0,0
+1782025321344,23,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-5,text,true,,77,0,5,5,null,0,0,0
+1782025321367,1,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-2,text,true,,54,0,5,5,null,0,0,0
+1782025321367,2,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-5,text,true,,55,0,5,5,null,0,0,0
+1782025321367,2,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-4,text,true,,78,0,5,5,null,0,0,0
+1782025321369,1,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-5,text,true,,30,0,5,5,null,0,0,0
+1782025321370,6,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-5,text,true,,52,0,5,5,null,0,0,0
+1782025321368,8,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-2,text,true,,110,0,5,5,null,0,0,0
+1782025321344,44,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-3,text,true,,313,0,5,5,null,0,0,0
+1782025321376,12,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-2,text,true,,56,0,5,5,null,0,0,0
+1782025321344,44,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-1,text,true,,312,0,5,5,null,0,0,0
+1782025321369,29,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-4,text,true,,63,0,5,5,null,0,0,0
+1782025321388,10,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-3,text,true,,79,0,5,5,null,0,0,0
+1782025321399,2,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-3,text,true,,55,0,5,5,null,0,0,0
+1782025321388,13,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-1,text,true,,80,0,5,5,null,0,0,0
+1782025321398,3,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-4,text,true,,150,0,5,5,null,0,0,0
+1782025321376,25,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-5,text,true,,312,0,5,5,null,0,0,0
+1782025321401,7,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-5,text,true,,79,0,5,5,null,0,0,0
+1782025321401,7,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-4,text,true,,55,0,5,5,null,0,0,0
+1782025321388,20,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-2,text,true,,312,0,5,5,null,0,0,0
+1782025321401,7,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-3,text,true,,112,0,5,5,null,0,0,0
+1782025321408,15,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-2,text,true,,88,0,5,5,null,0,0,0
+1782025321423,2,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-2,text,true,,53,0,5,5,null,0,0,0
+1782025321408,17,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-3,text,true,,52,0,5,5,null,0,0,0
+1782025321425,13,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-2,text,true,,30,0,5,5,null,0,0,0
+1782025321408,30,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-5,text,true,,61,0,5,5,null,0,0,0
+1782025321401,38,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-1,text,true,,62,0,5,5,null,0,0,0
+1782025321438,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-2,text,true,,54,0,5,5,null,0,0,0
+1782025321438,16,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-5,text,true,,152,0,5,5,null,0,0,0
+1782025321439,16,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-1,text,true,,111,0,5,5,null,0,0,0
+1782025321455,0,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-5,text,true,,56,0,5,5,null,0,0,0
+1782025321455,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-1,text,true,,52,0,5,5,null,0,0,0
+1782025321408,64,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-4,text,true,,312,0,5,5,null,0,0,0
+1782025321472,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-4,text,true,,84,0,5,5,null,0,0,0
+1782025321473,1,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-4,text,true,,55,0,5,5,null,0,0,0
+1782025321474,1,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-4,text,true,,108,0,5,5,null,0,0,0
+1782025321475,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-4,text,true,,54,0,5,5,null,0,0,0
+1782025321425,63,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-3,text,true,,312,0,5,5,null,0,0,0
+1782025321455,33,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-5,text,true,,311,0,5,5,null,0,0,0
+1782025321488,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-5,text,true,,81,0,5,5,null,0,0,0
+1782025321488,5,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-3,text,true,,81,0,5,5,null,0,0,0
+1782025321440,53,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-2,text,true,,315,0,5,5,null,0,0,0
+1782025321456,40,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-1,text,true,,312,0,5,5,null,0,0,0
+1782025321493,4,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-2,text,true,,78,0,5,5,null,0,0,0
+1782025321497,0,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-2,text,true,,55,0,4,4,null,0,0,0
+1782025321497,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-2,text,true,,110,0,4,4,null,0,0,0
+1782025321499,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-2,text,true,,54,0,4,4,null,0,0,0
+1782025321476,32,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-4,text,true,,312,0,4,4,null,0,0,0
+1782025321489,19,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-5,text,true,,61,0,4,4,null,0,0,0
+1782025321508,0,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-4,text,true,,79,0,4,4,null,0,0,0
+1782025321508,1,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-4,text,true,,54,0,4,4,null,0,0,0
+1782025321493,16,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-3,text,true,,61,0,4,4,null,0,0,0
+1782025321509,11,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-4,text,true,,115,0,4,4,null,0,0,0
+1782025321508,12,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-5,text,true,,154,0,4,4,null,0,0,0
+1782025321509,11,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-3,text,true,,111,0,4,4,null,0,0,0
+1782025321520,3,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-5,text,true,,52,0,4,4,null,0,0,0
+1782025321520,3,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-4,text,true,,59,0,4,4,null,0,0,0
+1782025321500,23,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-2,text,true,,311,0,4,4,null,0,0,0
+1782025321520,16,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-3,text,true,,52,0,3,3,null,0,0,0
+1782025321523,38,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-4,text,true,,313,0,3,3,null,0,0,0
+1782025321536,25,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-3,text,true,,315,0,3,3,null,0,0,0
+1782025321523,38,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-5,text,true,,309,0,3,3,null,0,0,0
+1782025321561,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-4,text,true,,83,0,2,2,null,0,0,0
+1782025321561,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-5,text,true,,77,0,2,2,null,0,0,0
+1782025321562,4,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-4,text,true,,54,0,2,2,null,0,0,0
+1782025321562,7,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-5,text,true,,61,0,2,2,null,0,0,0
+1782025321566,3,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-4,text,true,,114,0,2,2,null,0,0,0
+1782025321569,3,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-4,text,true,,55,0,2,2,null,0,0,0
+1782025321569,3,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-5,text,true,,114,0,2,2,null,0,0,0
+1782025321572,14,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-5,text,true,,52,0,2,2,null,0,0,0
+1782025321572,14,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-4,text,true,,314,0,2,2,null,0,0,0
+1782025321586,16,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-4,text,true,,80,0,2,2,null,0,0,0
+1782025321602,3,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-4,text,true,,62,0,2,2,null,0,0,0
+1782025321586,19,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-5,text,true,,313,0,2,2,null,0,0,0
+1782025321605,1,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-4,text,true,,30,0,2,2,null,0,0,0
+1782025321605,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-5,text,true,,85,0,2,2,null,0,0,0
+1782025321606,3,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-4,text,true,,52,0,2,2,null,0,0,0
+1782025321606,3,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-5,text,true,,62,0,2,2,null,0,0,0
+1782025321609,11,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-5,text,true,,31,0,2,2,null,0,0,0
+1782025321609,11,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-4,text,true,,312,0,2,2,null,0,0,0
+1782025321620,2,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-4,text,true,,82,0,2,2,null,0,0,0
+1782025321620,2,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-5,text,true,,56,0,2,2,null,0,0,0
+1782025321622,12,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-4,text,true,,55,0,2,2,null,0,0,0
+1782025321622,12,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-5,text,true,,309,0,2,2,null,0,0,0
+1782025321634,1,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-4,text,true,,31,0,2,2,null,0,0,0
+1782025321634,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-5,text,true,,78,0,2,2,null,0,0,0
+1782025321635,6,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-4,text,true,,56,0,2,2,null,0,0,0
+1782025321635,6,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-5,text,true,,61,0,2,2,null,0,0,0
+1782025321641,14,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-5,text,true,,30,0,2,2,null,0,0,0
+1782025321641,14,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-4,text,true,,310,0,2,2,null,0,0,0
+1782025321655,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-5,text,true,,59,0,1,1,null,0,0,0
+1782025321656,14,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-5,text,true,,311,0,1,1,null,0,0,0
+1782025321670,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-5,text,true,,79,0,1,1,null,0,0,0
+1782025321671,3,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-5,text,true,,61,0,1,1,null,0,0,0
+1782025321674,2,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-5,text,true,,113,0,1,1,null,0,0,0
+1782025321676,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-5,text,true,,59,0,1,1,null,0,0,0
+1782025321677,12,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-5,text,true,,314,0,1,1,null,0,0,0
+1782025321689,1,MySQL Q1 - Read Customer by ID,200,OK,MySQL Baseline Benchmark 3-5,text,true,,80,0,1,1,null,0,0,0
+1782025321690,0,MySQL Q2 - Read Customer Orders Detail,200,OK,MySQL Baseline Benchmark 3-5,text,true,,53,0,1,1,null,0,0,0
+1782025321690,1,MySQL Q3 - Aggregation: Orders by Status,200,OK,MySQL Baseline Benchmark 3-5,text,true,,30,0,1,1,null,0,0,0
+1782025321691,1,MySQL Q4 - Range Query: Customers by Region,200,OK,MySQL Baseline Benchmark 3-5,text,true,,54,0,1,1,null,0,0,0
+1782025321692,13,MySQL Q5 - Revenue Aggregation,200,OK,MySQL Baseline Benchmark 3-5,text,true,,314,0,1,1,null,0,0,0
+1782025321706,2109,Close All Connections,200,OK,Teardown - Close Connections 1-1,text,true,,23,0,1,1,null,0,0,0
